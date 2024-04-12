@@ -1,0 +1,382 @@
+@media (min-width: 868px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+    /* hidden code */
+
+    .phonenav {
+        display: none;
+    }
+
+    :root {
+        --primary: black;
+        --secondery: white;
+        --Tertiary: #58C819;
+        --Quaternary: #28A9E0;
+    }
+
+
+    body {
+        /* background-color: rgb(147, 147, 170); */
+        font-family: "Tilt Neon", sans-serif;
+    }
+
+    .main_container {
+        width: 100vw;
+        height: auto;
+
+    }
+
+    .topheader {
+        width: 100%;
+        height: 40px;
+        background-color: white;
+    }
+
+
+
+    .D_top_nav {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .D_top_nav .list {
+        list-style: none;
+        font-size: 14px;
+    }
+
+    .D_top_nav .list a:not(:last-child) {
+        display: block;
+        padding: 8px 20px;
+    }
+
+    .sub_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+
+        /* height: 120px; */
+    }
+
+    .Nsub_container {
+        display: flex;
+        align-items: center;
+    }
+
+    .socialMedia {
+        width: 13%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .socialMedia a {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .header {
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        z-index: -20;
+        top: -100px;
+    }
+
+    .banner {
+        position: absolute;
+        /* top: -100px !important; */
+        min-width: 100%;
+        height: 100%;
+        inset: 0px;
+        object-position: center;
+        object-fit: cover;
+    }
+
+    .nevbar {
+        width: 100%;
+        background-color: #111111ed;
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+    }
+
+    .logo {
+        height: auto;
+    }
+
+    .herocall {
+        width: 23px;
+        fill: #58C819;
+        margin-right: 7px;
+
+
+    }
+
+    .acall {
+        color: #58C819;
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    .navManu a:not(:last-child .acall) {
+        font-size: 17px;
+        color: white;
+
+    }
+
+    .getaquote {
+        background-color: #58C819 !important;
+        font-size: 15px !important;
+
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.194);
+    }
+
+    .textonImg {
+        position: absolute;
+        width: 100%;
+        /* height: 100%; */
+        top: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+
+
+    .main_heading {
+        position: absolute;
+        left: 100px;
+        top: 80px;
+        z-index: 10;
+
+
+    }
+
+    .main_heading h1 {
+        font-size: 50px;
+        color: white;
+        width: 500px;
+
+    }
+
+    .main_container h2 {
+        font-size: 38px;
+        color: white;
+    }
+
+
+    .destination {
+        width: 650px;
+        height: 70px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 40px;
+    }
+
+    .destination form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 5px;
+        height: 100%;
+        padding: 0px 10px;
+        border-radius: 4px;
+
+
+    }
+
+    .destination form input {
+        flex: 1;
+        height: 50px;
+        border: 2px solid rgb(176, 172, 172);
+        padding: 0px 10px;
+        border-radius: 4px;
+        color: rgb(79, 76, 76);
+        font-size: 18px;
+
+
+    }
+
+    .destination form button {
+        flex: 1;
+        background-color: #58C819;
+        height: 50px;
+        border-radius: 4px;
+
+    }
+
+    .destination form input::placeholder {
+        color: rgb(124, 124, 124);
+        font-size: 18px;
+    }
+
+
+
+    .experience {
+        width: 100%;
+        height: auto;
+        margin-top: -50px;
+        margin: auto;
+        margin-bottom: 100px !important;
+    }
+
+    .expeerienceHeading {
+        width: 100%;
+        margin: auto;
+    }
+
+    .expeerienceHeading h1 {
+        font-size: 48px;
+        text-align: black;
+        font-weight: 700;
+    }
+
+    .expeerienceHeading p {
+        font-size: 22px;
+        text-align: black;
+        font-weight: 600;
+    }
+
+
+    .serviceType {
+        width: 100%;
+        padding: 0px 30px;
+
+        margin-top: 70px;
+    }
+
+    .maincard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card {
+        flex: 1;
+        min-height: 380px;
+        border-radius: 8px;
+        border: 1px solid #58C819;
+        background-color: rgb(237, 237, 237);
+        box-shadow: 1px 1px 15px #58C819;
+        position: relative;
+
+
+    }
+
+    .card_overlay {
+        position: absolute !important;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.482) !important;
+        border-radius: 8px;
+    }
+
+    .maincard .card_1 {
+        background-image: url('../images/MCM\ \ main\ banner_______.png');
+        background-size: cover;
+        background-position: bottom center !important;
+        background-repeat: no-repeat;
+    }
+
+    .maincard .card_2{
+        background-image: url('../images/banner\ 1920x1280________.png');
+        background-size: cover;
+        background-position: center top !important  ;
+        background-repeat: no-repeat;
+    }
+    .maincard .card_3{
+        background-image: url('../images/banner\ 1920x1280________.png');
+        background-size: cover;
+        background-position: end;
+        background-repeat: no-repeat;
+        
+    }
+    .maincard .card_4{
+        background-image: url('../images//truck-banner.png');
+        background-size: cover;
+        background-position: start;
+        background-repeat: no-repeat;
+     
+    }
+
+
+    .Cardcontant{
+        width: 90%;
+        height:auto;
+        margin: auto;
+        /* border: 1px solid red; */
+       padding: 35px 0px 10px 0px !important;
+    }
+
+    .card_icon{
+        width: 80px;
+        height: 80px;
+        /* border: 1px solid white; */
+        margin: auto;
+    
+        /* background-color: rgba(0, 0, 0, 0.535); */
+
+    }
+    .card_icon img{
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        filter: invert(1);
+    }
+
+    .card_discription{
+        margin-top: 20px;
+        width: 100%;
+        padding-top: 10px;
+        min-height: 210px;
+        /* border: 1px solid oldlace; */
+        background-color: rgba(0, 0, 0, 0.535);
+        border-radius: 8px;
+    }
+
+    .cardHeading{
+        font-size: 24px;
+        color: white;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .card_para{
+        font-size: 15px;
+        color: rgb(213, 213, 213);
+        text-align: center;
+        font-weight: 400;
+        margin-top: 10px;
+        padding: 0px 10px;
+        line-height: 27px;
+    }
+
+    .seeMore{
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 15px;
+        padding-left: 5px;
+    }
+}

@@ -1,0 +1,18 @@
+.D_top_nav .list:hover a{
+    color: #28A9E0;
+
+}
+
+.socialMedia a:hover svg{
+    fill: #28A9E0;
+    
+}
+
+.card:hover{
+    box-shadow: 1px 1px 30px black;
+
+}
+
+.card:hover .card_overlay{
+    background-color: rgba(0, 0, 0, 0.088) !important; 
+}

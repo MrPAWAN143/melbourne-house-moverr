@@ -1,0 +1,373 @@
+@media  (max-width: 480px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+
+
+    .toggalMenu{
+        position: absolute;
+       top: 0px;
+       bottom: 0px;
+       right: 0px;
+       left: 0px;
+        background-color: rgba(0, 0, 0, 0.947);
+        z-index: 50;
+        display: none;
+    }
+
+    .ns_toggalMenu{
+        position: absolute;
+        top: 80px;
+        width: 100%;
+
+        /* padding: 0px 30px; */
+    }
+
+    .ns_toggalMenu:first-child{
+        border-bottom: 1px solid white;
+    }
+    .toggalTopMenu li{
+        /* display: block; */
+    }
+    
+    .toggalTopMenu li a{
+        /* background-color: white; */
+        color: rgb(255, 255, 255);
+        display: block !important;
+        padding: 10px 30px;
+        margin-bottom: 10px;
+
+    }
+
+
+    .close{
+        width: 30px;
+        height: 30px;
+    }
+    .close svg{
+        width: 20px;
+        height: 20px;
+        fill: white;
+    }
+
+
+    /* hidden code  */
+
+
+    .getaquote{
+        display: none;
+    }
+
+
+    body {
+        font-family: "Tilt Neon", sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+
+
+    .topheader {
+        display: none !important;
+    }
+
+
+   
+    .header {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        z-index: -20;
+        top: -100px;
+    }
+
+    .banner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        inset: 0px;
+        object-position: center;
+        object-fit: cover;
+    }
+
+    .overlay{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.306);
+        bottom: 0px !important;
+    }
+
+    .navbar{
+        display: none !important;
+    }
+
+   .logo{
+    width: 35% !important;
+   }
+
+    .phonenav{
+        width: 100%;
+        height: auto;
+        position: sticky;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.908);
+        z-index: 40;
+    }
+
+    .phonenav .container{
+        padding: 0px 10px  !important;
+    }
+    .herocall {
+        width: 25px;
+        fill: #58C819;
+        margin-right: 7px;
+        font-weight: 700 !important;
+    }
+
+    .phacall{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+   
+    .menu{
+        display: none;
+    }
+    .drower_icon svg{
+        width: 50px !important;
+        height: 50px !important;
+        fill: white !important;
+
+    }
+
+
+    .textonImg{
+        position: absolute;
+        top: 150px;
+        padding: 0px 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0px;
+    }
+    .main_heading h1{
+        font-size: 40px;
+        color: white;
+        line-height: 50px;
+        letter-spacing: 2.5px;
+    }
+
+    .main_heading h2{
+        font-size: 22px;
+        color: white;
+        font-weight: 700;
+
+    }
+
+    .main_heading .destination{
+        width: 100%;
+        height:auto;
+        background-color: rgba(255, 255, 255, 0.872);
+        margin-top: 50px;
+        border-radius: 5px;
+        border: 0.5px  solid rgb(167, 167, 167);
+    }
+
+    .main_heading .destination form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 10px 0px;
+    }
+
+    .main_heading .destination form input{
+        width: 95%;
+        height: 47px;
+        border: 2px solid rgb(211, 211, 211);
+        border-radius: 5px;
+        color: rgb(84, 82, 82);
+        padding: 0px 10px;
+        font-size: 16px;
+        
+    }
+
+    .main_heading .destination form input::placeholder{
+        color: rgb(84, 82, 82);
+        font-size: 16px;
+    }
+    .main_heading .destination form button{
+       width: 95%;
+       height: 47px;
+       background-color: #58C819;
+       border-radius: 5px;
+       color: white;
+    }
+
+
+
+    .experience{
+        width: 100%;
+        height: auto;
+        margin-top: -50px;
+    }
+
+    .expeerienceHeading{
+        width: 100%;
+        margin: auto;
+    }
+
+    .expeerienceHeading h1{
+        font-size: 34px;
+        text-align: black;
+        font-weight: 700;
+        padding: 0px 20px;
+    }
+    .expeerienceHeading p{
+        padding: 0px 20px;
+        font-size: 17px;
+        text-align: black;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+
+
+    .serviceType {
+        width: 100%;
+        padding: 0px 30px;
+
+        margin-top: 70px;
+    }
+
+    .maincard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 95%;
+        min-height: 400px;
+        border-radius: 8px;
+        border: 1px solid #58C819;
+        background-color: rgb(237, 237, 237);
+        box-shadow: 1px 1px 15px #58C819;
+        position: relative;
+
+
+    }
+
+    .card_overlay {
+        position: absolute !important;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.345) !important;
+        border-radius: 8px;
+    }
+
+    .maincard .card_1 {
+        background-image: url('../images/MCM\ \ main\ banner_______.png');
+        background-size: cover;
+        background-position: bottom center !important;
+        background-repeat: no-repeat;
+    }
+
+    .maincard .card_2{
+        background-image: url('../images/banner\ 1920x1280________.png');
+        background-size: cover;
+        background-position: center top !important  ;
+        background-repeat: no-repeat;
+    }
+    .maincard .card_3{
+        background-image: url('../images/banner\ 1920x1280________.png');
+        background-size: cover;
+        background-position: end;
+        background-repeat: no-repeat;
+        
+    }
+    .maincard .card_4{
+        background-image: url('../images//truck-banner.png');
+        background-size: cover;
+        background-position: start;
+        background-repeat: no-repeat;
+     
+
+
+    }
+    
+
+
+
+
+
+    .Cardcontant{
+        width: 90%;
+        height:auto;
+        margin: auto;
+        /* border: 1px solid red; */
+       padding: 35px 0px 10px 0px !important;
+    }
+
+    .card_icon{
+        width: 80px;
+        height: 80px;
+        /* border: 1px solid white; */
+        margin: auto;
+    
+        /* background-color: rgba(0, 0, 0, 0.535); */
+
+    }
+    .card_icon img{
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        filter: invert(1);
+    }
+
+    .card_discription{
+        margin-top: 20px;
+        width: 100%;
+        padding-top: 10px;
+        min-height: 210px;
+        /* border: 1px solid oldlace; */
+        background-color: rgba(0, 0, 0, 0.535);
+        border-radius: 8px;
+    }
+
+    .cardHeading{
+        font-size: 24px;
+        color: white;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .card_para{
+        font-size: 15px;
+        color: rgb(213, 213, 213);
+        text-align: center;
+        font-weight: 400;
+        margin-top: 10px;
+        padding: 0px 10px;
+        line-height: 27px;
+    }
+
+    .seeMore{
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 15px;
+        padding-left: 5px;
+    }
+
+
+}
