@@ -175,7 +175,7 @@
 
     }
 
-    .main_container h2 {
+    .main_heading h2 {
         font-size: 38px;
         color: white;
     }
@@ -231,9 +231,17 @@
     .experience {
         width: 100%;
         height: auto;
-        margin-top: -50px;
+        padding-top: 80px;
         margin: auto;
-        margin-bottom: 100px !important;
+
+    }
+    .experience.m{
+        width: 100%;
+        height: auto;
+        margin-top: -30px !important;
+        margin: auto;
+        padding-top: 0px;
+
     }
 
     .expeerienceHeading {
@@ -265,12 +273,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 30px;
     }
 
     .card {
         flex: 1;
-        min-height: 380px;
+        height: 400px;
         border-radius: 8px;
         border: 1px solid #58C819;
         background-color: rgb(237, 237, 237);
@@ -297,46 +305,49 @@
         background-repeat: no-repeat;
     }
 
-    .maincard .card_2{
+    .maincard .card_2 {
         background-image: url('../images/banner\ 1920x1280________.png');
         background-size: cover;
-        background-position: center top !important  ;
+        background-position: center top !important;
         background-repeat: no-repeat;
     }
-    .maincard .card_3{
+
+    .maincard .card_3 {
         background-image: url('../images/banner\ 1920x1280________.png');
         background-size: cover;
         background-position: end;
         background-repeat: no-repeat;
-        
+
     }
-    .maincard .card_4{
+
+    .maincard .card_4 {
         background-image: url('../images//truck-banner.png');
         background-size: cover;
         background-position: start;
         background-repeat: no-repeat;
-     
+
     }
 
 
-    .Cardcontant{
+    .Cardcontant {
         width: 90%;
-        height:auto;
+        height: auto;
         margin: auto;
         /* border: 1px solid red; */
-       padding: 35px 0px 10px 0px !important;
+        padding: 35px 0px 0px 0px !important;
     }
 
-    .card_icon{
+    .card_icon {
         width: 80px;
         height: 80px;
         /* border: 1px solid white; */
         margin: auto;
-    
+
         /* background-color: rgba(0, 0, 0, 0.535); */
 
     }
-    .card_icon img{
+
+    .card_icon img {
         width: 80%;
         height: 80%;
         object-fit: cover;
@@ -346,37 +357,186 @@
         filter: invert(1);
     }
 
-    .card_discription{
-        margin-top: 20px;
+    .card_discription {
+        margin-top: 40px;
         width: 100%;
         padding-top: 10px;
-        min-height: 210px;
+        height: 220px;
         /* border: 1px solid oldlace; */
         background-color: rgba(0, 0, 0, 0.535);
         border-radius: 8px;
     }
 
-    .cardHeading{
+    .cardHeading {
         font-size: 24px;
         color: white;
         text-align: center;
         font-weight: 600;
     }
 
-    .card_para{
+    .card_para {
         font-size: 15px;
         color: rgb(213, 213, 213);
         text-align: center;
         font-weight: 400;
-        margin-top: 10px;
-        padding: 0px 10px;
+        padding: 0px 7px;
         line-height: 27px;
     }
 
-    .seeMore{
-        text-decoration: underline;
+    .seeMore {
+        text-decoration: none;
         cursor: pointer;
-        font-size: 15px;
-        padding-left: 5px;
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 2px 20px;
+        color: white;
+        display: inline-block;
+        background-color: #58C819;
+        border-radius: 5px;
+
+
+    }
+
+
+
+
+
+    /* Residential Css */
+
+
+    .RMain {
+        width: 100%;
+        height: auto;
+    
+        margin-top: 20px;
+        padding: 10px 40px;
+
+    }
+
+    .Rrow {
+        width: 90%;
+        margin: auto;
+        height: 190px;
+        
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 20px;
+        padding: 10px 10px;
+
+    }
+    
+    .Rrow a{
+        width: 100%;
+        height: 100%;
+    }
+
+      .Ritems {
+        flex: 1;
+        height: 100%;
+        background-color: #28A9E0;
+        border-radius: 70px 0px 80px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        transition: 500ms;
+    }
+
+    .Ritems h3 {
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        width: 55%;
+
+
+    }
+
+    .rightUpArrow {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 10px;
+        top: 10px;
+        fill: white;
+
+    }
+
+
+
+    /* Residential  Card  Css*/
+
+    .residentialCard{
+        margin: auto;
+        padding: 10px 40px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        
+    }
+
+
+    .ns_residentialCard{
+        width: 95%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .RCImg{
+        width: 45%;
+        height: 500px;
+    }
+
+    .RCcontant{
+        width: 55%;
+        height: auto;
+        padding:10px 0px 10px 50px ;
+    }
+
+    .ns_residentialCard .RCImg img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    .RCcontantType{
+        font-size: 22px;
+        color: #28A9E0;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+    }
+
+    .ns_RCcontantType{
+        font-size: 30px;
+        font-weight: 600;
+        margin: 35px 0px;
+        letter-spacing: 1.2px;
+        width: 90%;
+    }
+
+    .RCPera1{
+        font-size: 16.5px;
+        width: 90%;
+        margin-bottom: 40px;
+
+        
+    }
+    .RCPera2{
+        font-size: 16.5 px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+
+    .enquerybtn{
+        padding: 15px 50px;
+        background-color: #58C819;
+        color: white;
+        font-weight: 600;
+        border-radius: 4px;
     }
 }

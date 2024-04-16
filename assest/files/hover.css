@@ -16,3 +16,8 @@
 .card:hover .card_overlay{
     background-color: rgba(0, 0, 0, 0.088) !important; 
 }
+
+.Rrow a .Ritems:hover{
+    background-color: #257090;
+transition: 500ms ;
+}

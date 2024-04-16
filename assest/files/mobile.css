@@ -1,61 +1,126 @@
-@media  (max-width: 480px) {
+@media (max-width: 480px) {
 
     @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
 
 
 
-    .toggalMenu{
-        position: absolute;
-       top: 0px;
-       bottom: 0px;
-       right: 0px;
-       left: 0px;
-        background-color: rgba(0, 0, 0, 0.947);
+    .toggalMenu {
+        /* height: auto; */
+        position: sticky;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        background-color: rgb(0, 0, 0);
         z-index: 50;
         display: none;
+        height: 100vh;
+        /* padding-bottom: 20px; */
+
+
     }
 
-    .ns_toggalMenu{
-        position: absolute;
+    .ns_toggalMenu {
+        position: fixed;
         top: 80px;
         width: 100%;
-
+        background-color: black;
+        height: 90vh;
+        overflow-y: scroll;
+        /* padding: 10px; */
         /* padding: 0px 30px; */
     }
 
-    .ns_toggalMenu:first-child{
-        border-bottom: 1px solid white;
+    .scrolly {
+        height: auto;
+
+
     }
-    .toggalTopMenu li{
+
+    .ns_toggalMenu:first-child {
+        /* border-bottom: 1px solid white; */
+    }
+
+    .toggalTopMenu:first-child  {
         /* display: block; */
+        border-bottom: 0.5px solid rgb(126, 126, 126);
+        margin-bottom: 30px;
+        padding-bottom:30px ;
     }
-    
-    .toggalTopMenu li a{
+
+    .toggalTopMenu li a {
         /* background-color: white; */
         color: rgb(255, 255, 255);
         display: block !important;
         padding: 10px 30px;
-        margin-bottom: 10px;
+        font-size: 20px !important;
+
+        /* margin-bottom: 10px; */
 
     }
 
 
-    .close{
+    .close {
         width: 30px;
         height: 30px;
     }
-    .close svg{
+
+    .close svg {
         width: 20px;
         height: 20px;
         fill: white;
+    }
+
+    .dropdownMenu {
+        /* position: relative; */
+        /* height: 50px;
+        padding: 10px 0px; */
+
+
+    }
+
+
+
+    .dropdown_item {
+        display: none;
+        /* position: absolute; */
+        right: 0px;
+        left: 0px;
+        z-index: 0;
+        /* height: 200px; */
+        background-color: black;
+        padding: 0px 0px 0px 10px;
+
+
+    }
+
+    .dropdown_item ul li a{
+        font-size: 17px  !important;
+        font-weight: 500;
+    }
+
+    .dropiconParents {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+
+    }
+
+    .downArrow {
+        width: 25px !important;
+        height: 25px !important;
+        fill: white !important;
+        /* transform: rotate(180deg); */
+
     }
 
 
     /* hidden code  */
 
 
-    .getaquote{
+    .getaquote {
         display: none;
     }
 
@@ -74,7 +139,7 @@
     }
 
 
-   
+
     .header {
         position: relative;
         width: 100%;
@@ -92,7 +157,7 @@
         object-fit: cover;
     }
 
-    .overlay{
+    .overlay {
         position: absolute;
         top: 0px;
         right: 0px;
@@ -101,15 +166,15 @@
         bottom: 0px !important;
     }
 
-    .navbar{
+    .navbar {
         display: none !important;
     }
 
-   .logo{
-    width: 35% !important;
-   }
+    .logo {
+        width: 35% !important;
+    }
 
-    .phonenav{
+    .phonenav {
         width: 100%;
         height: auto;
         position: sticky;
@@ -118,9 +183,10 @@
         z-index: 40;
     }
 
-    .phonenav .container{
-        padding: 0px 10px  !important;
+    .phonenav .container {
+        padding: 0px 10px !important;
     }
+
     .herocall {
         width: 25px;
         fill: #58C819;
@@ -128,15 +194,16 @@
         font-weight: 700 !important;
     }
 
-    .phacall{
+    .phacall {
         font-size: 20px;
         margin-right: 20px;
     }
-   
-    .menu{
+
+    .menu {
         display: none;
     }
-    .drower_icon svg{
+
+    .drower_icon svg {
         width: 50px !important;
         height: 50px !important;
         fill: white !important;
@@ -144,7 +211,7 @@
     }
 
 
-    .textonImg{
+    .textonImg {
         position: absolute;
         top: 150px;
         padding: 0px 10%;
@@ -152,30 +219,31 @@
         transform: translateX(-50%);
         bottom: 0px;
     }
-    .main_heading h1{
+
+    .main_heading h1 {
         font-size: 40px;
         color: white;
         line-height: 50px;
         letter-spacing: 2.5px;
     }
 
-    .main_heading h2{
+    .main_heading h2 {
         font-size: 22px;
         color: white;
         font-weight: 700;
 
     }
 
-    .main_heading .destination{
+    .main_heading .destination {
         width: 100%;
-        height:auto;
+        height: auto;
         background-color: rgba(255, 255, 255, 0.872);
         margin-top: 50px;
         border-radius: 5px;
-        border: 0.5px  solid rgb(167, 167, 167);
+        border: 0.5px solid rgb(167, 167, 167);
     }
 
-    .main_heading .destination form{
+    .main_heading .destination form {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -184,7 +252,7 @@
         padding: 10px 0px;
     }
 
-    .main_heading .destination form input{
+    .main_heading .destination form input {
         width: 95%;
         height: 47px;
         border: 2px solid rgb(211, 211, 211);
@@ -192,41 +260,47 @@
         color: rgb(84, 82, 82);
         padding: 0px 10px;
         font-size: 16px;
-        
+
     }
 
-    .main_heading .destination form input::placeholder{
+    .main_heading .destination form input::placeholder {
         color: rgb(84, 82, 82);
         font-size: 16px;
     }
-    .main_heading .destination form button{
-       width: 95%;
-       height: 47px;
-       background-color: #58C819;
-       border-radius: 5px;
-       color: white;
+
+    .main_heading .destination form button {
+        width: 95%;
+        height: 47px;
+        background-color: #58C819;
+        border-radius: 5px;
+        color: white;
     }
 
 
 
-    .experience{
+    .experience {
         width: 100%;
         height: auto;
-        margin-top: -50px;
+        margin-top: 50px;
     }
 
-    .expeerienceHeading{
+    .experience.m{
+        margin-top: -40px !important;
+    }
+
+    .expeerienceHeading {
         width: 100%;
         margin: auto;
     }
 
-    .expeerienceHeading h1{
+    .expeerienceHeading h1 {
         font-size: 34px;
         text-align: black;
         font-weight: 700;
         padding: 0px 20px;
     }
-    .expeerienceHeading p{
+
+    .expeerienceHeading p {
         padding: 0px 20px;
         font-size: 17px;
         text-align: black;
@@ -280,52 +354,55 @@
         background-repeat: no-repeat;
     }
 
-    .maincard .card_2{
+    .maincard .card_2 {
         background-image: url('../images/banner\ 1920x1280________.png');
         background-size: cover;
-        background-position: center top !important  ;
+        background-position: center top !important;
         background-repeat: no-repeat;
     }
-    .maincard .card_3{
+
+    .maincard .card_3 {
         background-image: url('../images/banner\ 1920x1280________.png');
         background-size: cover;
         background-position: end;
         background-repeat: no-repeat;
-        
+
     }
-    .maincard .card_4{
+
+    .maincard .card_4 {
         background-image: url('../images//truck-banner.png');
         background-size: cover;
         background-position: start;
         background-repeat: no-repeat;
-     
+
 
 
     }
-    
 
 
 
 
 
-    .Cardcontant{
+
+    .Cardcontant {
         width: 90%;
-        height:auto;
+        height: auto;
         margin: auto;
         /* border: 1px solid red; */
-       padding: 35px 0px 10px 0px !important;
+        padding: 35px 10px 10px 10px !important;
     }
 
-    .card_icon{
+    .card_icon {
         width: 80px;
         height: 80px;
         /* border: 1px solid white; */
         margin: auto;
-    
+
         /* background-color: rgba(0, 0, 0, 0.535); */
 
     }
-    .card_icon img{
+
+    .card_icon img {
         width: 80%;
         height: 80%;
         object-fit: cover;
@@ -335,38 +412,101 @@
         filter: invert(1);
     }
 
-    .card_discription{
+    .card_discription {
         margin-top: 20px;
         width: 100%;
         padding-top: 10px;
-        min-height: 210px;
+        height: 230px;
         /* border: 1px solid oldlace; */
         background-color: rgba(0, 0, 0, 0.535);
         border-radius: 8px;
     }
 
-    .cardHeading{
+    .cardHeading {
         font-size: 24px;
         color: white;
         text-align: center;
         font-weight: 600;
     }
 
-    .card_para{
+    .card_para {
         font-size: 15px;
         color: rgb(213, 213, 213);
         text-align: center;
         font-weight: 400;
-        margin-top: 10px;
-        padding: 0px 10px;
+        /* margin-top: 10px;
+        padding: 0px 10px; */
         line-height: 27px;
     }
 
-    .seeMore{
-        text-decoration: underline;
+    .seeMore {
+        text-decoration: none;
         cursor: pointer;
-        font-size: 15px;
-        padding-left: 5px;
+        margin-top: 10px;
+        font-size: 12px;
+        padding: 2px 20px;
+        color: white;
+        display: inline-block;
+        background-color: #58C819;
+        border-radius: 5px;
+
+
+    }
+
+
+
+    /* Residential Css */
+
+
+    .RMain {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding: 10px 30px;
+
+    }
+
+    .Rrow {
+        width: 100%;
+        margin: auto;
+        height: auto;
+
+    }
+    
+    .Rrow a{
+        width: 100%;
+        height: 100%;
+    }
+
+      .Ritems {
+        flex: 1;
+        height: 100%;
+        background-color: #28A9E0;
+        display: flex;
+        align-items: center;
+    padding: 10px 10px;
+    margin: 15px 0px ;
+    border-radius: 5px;
+    }
+
+    .Ritems h3 {
+        font-size: 22px;
+        color: white;
+        text-align: start;
+        /* padding: 0px 10px; */
+        width: 100%;
+
+
+    }
+
+    .rightUpArrow {
+        /* position: absolute; */
+        width: 20px;
+        height: 20px;
+        right: 10px;
+        top: 10px;
+        fill: white;
+
     }
 
 
