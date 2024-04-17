@@ -663,14 +663,138 @@
                         Powering expert removals across Australia.
                     </h2>
 
-                    <p class='RCPera1' >Searching for house removals in Sydney? Need a secure storage facility for household goods?
+                    <p class='RCPera1'>Searching for house removals in Sydney? Need a secure storage facility for
+                        household goods?
                         Looking for a quick move? Welcome to Holloway Removals & Storage.</p>
-                    <p class='RCPera1'>Holloway offers the best house removalists and best removal company in Sydney, including
+                    <p class='RCPera1'>Holloway offers the best house removalists and best removal company in Sydney,
+                        including
                         residential services for both local & interstate removals.
-                        </p>
+                    </p>
 
 
-                    <a href="" class='enquerybtn'>Enquery Now</a>
+                    <div class="RCbutton">
+                        <a href="" class='enquerybtn'>Enquery Now</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="container situations">
+            <div class="STheading">
+                <h2>You will notice that we are truly experts in handling complicated situations.</h2>
+            </div>
+            <div class="nssituations">
+
+
+                <div class="STcontentCard">
+                    <div class="STcard">
+                        <div class="STnsCard">
+                            <h2 class="STnsCard_heading">Masters in Handling Complexity</h2>
+                            <p class='STnsCardContent'>Discover our knack for effortlessly handling intricate
+                                situations. From dismantling furniture with ease to wrapping items securely in moving
+                                blankets, we specialize in efficient loading onto trucks.</p>
+                        </div>
+                    </div>
+                    <div class="STcard">
+
+                        <div class="STnsCard">
+                            <h2 class="STnsCard_heading">House Relocation Experts</h2>
+                            <p class='STnsCardContent'>Experience our critical house relocation service. We understand
+                                the value of your belongings and have built a dedicated team capable of relocating your
+                                house as it is, using special </p>
+                        </div>
+
+                    </div>
+                    <div class="STcard">
+                        <div class="STnsCard">
+                            <h2 class="STnsCard_heading">Tailored, Door-to-Door Service</h2>
+                            <p class='STnsCardContent'>Ease into your new space with our door-to-door services. Upon
+                                arrival, we handle unloading and furniture placement inside your new premise. Our
+                                experts customize services to suit your unique needs.</p>
+                        </div>
+                    </div>
+                    <div class="STcard">
+                        <div class="STnsCard">
+                            <h2 class="STnsCard_heading">Expertise Tailored to Your Move</h2>
+                            <p class='STnsCardContent'>From local to interstate moves, we've got you covered. As one of
+                                the best moving companies, we excel in handling fragile items, organizing convenient
+                                drop-off times, and ensuring the safe relocation </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class="header whyChoose">
+            <img src="assest/images/banner 1920x1280________.png" alt="banner" class="banner">
+
+            <div class="overlay nsWhychoose">
+                <h1 class="whychooseHeading">Why Choose Us</h1>
+
+                <div class="list">
+                    <ul class='Unlist'>
+                        <li>AFRA Accredited</li>
+                        <li>A friendly and committed team</li>
+                        <li>All the supplies you need to move</li>
+                        <li>Self Storage Association Australia</li>
+                    </ul>
+                    <ul class='Unlist'>
+                        <li>One of Sydney's largest removalists</li>
+                        <li>Instant quotes</li>
+                        <li>Simple call out fee wherever you are</li>
+                        <li>Move the right way, move with Holloway</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="container residentialCard commercial">
+
+            <div class="ns_residentialCard">
+
+                <div class="RCImg">
+                    <img src="assest/images/main-banner.png" alt="">
+
+                </div>
+
+                <div class="RCcontant">
+
+                    <h3 class='RCcontantType'>
+                        COMMERCIAL
+                    </h3>
+
+                    <h2 class='ns_RCcontantType '>
+                        Don’t trust your business move to just anybody.
+                    </h2>
+
+                    <p class='RCPera1'>If you are looking at reliable Office Movers or Office Removalists for your
+                        office relocation, you are in the right place. We are the best removalist company in Sydney.</p>
+                    <p class='RCPera1'>We understand that office moving requires skillful planning and execution in
+                        order to be successful and minimize the potential downtime that any company cannot afford. Our
+                        strongest tip is to plan early.
+                    </p>
+
+
+
+                    <div class="RCbutton">
+                        <a href="" class='enquerybtn'>Enquery Now</a>
+                    </div>
 
                 </div>
 
@@ -682,8 +806,159 @@
 
 
 
+        <div class="container experience residential">
+            <div class="expeerienceHeading">
+                <h1 class="text-center">Commercial Removalists.</h1>
+
+            </div>
+
+            <div class="RMain">
+                <div class="Rrow">
+                    <a href="" target="_blank">
+                        <div class="Ritems ">
+                            <h3 class=''>Business Relocation</h3>
+                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <div class="Ritems">
+                            <h3 class=''>Warehousing</h3>
+                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="" target='_blank'>
+                        <div class="Ritems">
+                            <h3 class=''>Self Storage</h3>
+                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="" target='_blank'>
+                        <div class="Ritems">
+                            <h3 class=''>Events $ Expo logistics</h3>
+                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
+                                </g>
+                            </svg>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="Rrow">
+
+                    <a href="" target="_blank">
+
+                        <div class="Ritems">
+                            <h3 class=''>Arts and Antiques</h3>
+                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
+                                </g>
+                            </svg>
+                        </div>
+
+                    </a>
+
+                    <a href="" target="_blank">
+                        <div class="Ritems">
+                            <h3 class=''>Rubbish Removals</h3>
+                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
+                                </g>
+                            </svg>
+                        </div>
 
 
+                    </a>
+
+                    <a href="" target="_blank">
+                        <div class="Ritems">
+                            <h3 class=''>FFE</h3>
+                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
+                                </g>
+                            </svg>
+                        </div>
+
+                    </a>
+
+
+                    <a href="" target="_blank">
+                        <div class="Ritems">
+                            <h3 class=''>Property Styling logistics</h3>
+                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
+                                </g>
+                            </svg>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="container ourHappyClints_secction">
+
+            <h2 class='text-center OHCheading'>Our happy clients</h2>
+
+            <div class="nsHappyClints">
+                <div class="OHCItems"><img src="assest/images/commbank.webp" alt=""></div>
+                <div class="OHCItems"><img src="assest/images/crown-group.webp" alt=""></div>
+                <div class="OHCItems"><img src="assest/images/canterbury.webp" alt=""></div>
+                <div class="OHCItems"><img src="assest/images/ghd.webp" alt=""></div>
+                <div class="OHCItems"><img src="assest/images/ingenia.webp" alt=""></div>
+                <div class="OHCItems"><img src="assest/images/manitou.webp" alt=""></div>
+                <div class="OHCItems"><img src="assest/images/mi-asia-pacific.webp" alt=""></div>
+                <div class="OHCItems"><img src="assest/images/nsw-ambulance.webp" alt=""></div>
+                <div class="OHCItems"><img src="assest/images/nsw-police-force.webp" alt=""></div>
+
+
+            </div>
+
+        </div>
 
 
     </div>

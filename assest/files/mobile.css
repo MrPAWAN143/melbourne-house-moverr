@@ -42,11 +42,11 @@
         /* border-bottom: 1px solid white; */
     }
 
-    .toggalTopMenu:first-child  {
+    .toggalTopMenu:first-child {
         /* display: block; */
         border-bottom: 0.5px solid rgb(126, 126, 126);
         margin-bottom: 30px;
-        padding-bottom:30px ;
+        padding-bottom: 30px;
     }
 
     .toggalTopMenu li a {
@@ -95,8 +95,8 @@
 
     }
 
-    .dropdown_item ul li a{
-        font-size: 17px  !important;
+    .dropdown_item ul li a {
+        font-size: 17px !important;
         font-weight: 500;
     }
 
@@ -284,7 +284,7 @@
         margin-top: 50px;
     }
 
-    .experience.m{
+    .experience.m {
         margin-top: -40px !important;
     }
 
@@ -294,10 +294,12 @@
     }
 
     .expeerienceHeading h1 {
-        font-size: 34px;
+        font-size: 26px;
         text-align: black;
         font-weight: 700;
-        padding: 0px 20px;
+        padding: 20px 10px;
+        background-color: #5AAAA0;
+        color: white;
     }
 
     .expeerienceHeading p {
@@ -306,6 +308,7 @@
         text-align: black;
         font-weight: 600;
         margin-top: 20px;
+        
     }
 
 
@@ -472,25 +475,25 @@
         height: auto;
 
     }
-    
-    .Rrow a{
+
+    .Rrow a {
         width: 100%;
         height: 100%;
     }
 
-      .Ritems {
+    .Ritems {
         flex: 1;
         height: 100%;
-        background-color: #28A9E0;
+        background-color: #1dbfbf;
         display: flex;
         align-items: center;
-    padding: 10px 10px;
-    margin: 15px 0px ;
-    border-radius: 5px;
+        padding: 10px 10px;
+        margin: 15px 0px;
+        border-radius: 5px;
     }
 
     .Ritems h3 {
-        font-size: 22px;
+        font-size: 18px;
         color: white;
         text-align: start;
         /* padding: 0px 10px; */
@@ -510,4 +513,310 @@
     }
 
 
+    /* Residential  Card  Css*/
+
+    .residentialCard {
+        margin: auto;
+        padding: 30px 0px;
+        margin-top: 30px;
+        background-color: #6090a4;
+        position: relative;
+
+    }
+
+
+    .ns_residentialCard {
+        width: 95%;
+        height: auto;
+        margin: auto;
+        margin-top: 30px;
+
+    }
+
+    .RCImg {
+        width: 96%;
+        height: auto;
+        margin: auto;
+   
+     
+    }
+
+    .RCcontant {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .ns_residentialCard .RCImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 4px !important;
+    }
+
+
+    .RCcontantType {
+        font-size: 22px;
+        color: #49e2d8;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-align: center;
+        margin: 30px 0px 10px 0px ;
+        position: absolute;
+        top: -15px;
+        left:20px;
+
+        
+    }
+
+    .ns_RCcontantType {
+        font-size: 24px;
+        font-weight: 600;
+        padding: 20px 5px 0px 5px;
+        letter-spacing: 1.2px;
+        width: 100%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .RCPera1 {
+        font-size: 16.5px;
+        width: 100%;
+        margin: 30px 0px;
+        padding: 0px 10px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+
+
+    }
+
+    .RCPera2 {
+        font-size: 16.5 px;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0px 10px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .RCbutton {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .enquerybtn {
+        padding: 10px 40px;
+        background-color: #58C819;
+        color: white;
+        font-weight: 600;
+        display: inline-block;
+        margin: auto;
+        align-items: center;
+        border-radius: 4px;
+        font-size: 20px ;
+    }
+
+
+
+
+
+    /* situations css  */
+
+    .situations.container{
+        width: 100%;
+        height: auto;
+        margin-top:55px !important;
+        margin: auto;
+    }
+
+    .situations{
+        /* padding: 0px 50px; */
+        /* padding: 0px 10px; */
+       
+    }
+
+    .STheading{
+        font-size: 26px;
+        width: 100%;
+        font-weight: 600;
+        text-align: center;
+        margin: auto;
+        background-color: #5AAAA0;
+        padding: 20px 10px;
+        color: white;
+       
+    }
+
+    .STcontentCard{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .STcard{
+        width: 100%;
+        height: 320px;
+        padding: 10px 10px;
+    }
+
+    .STcard .STnsCard{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background-color: #1dbfbf;
+        padding: 15px 20px;
+        border-radius: 8px;
+    }
+    .STnsCard_heading{
+        font-size: 26px ;
+        font-weight: 600;
+        text-align: start;
+        color: white;
+
+
+    }
+    .STnsCardContent{
+        font-size: 18px;
+        text-align: start;
+        /* padding: 0px 30px; */
+        margin-top: 0px;
+        color:white;
+    }
+
+
+
+    /* Why choose  */
+
+    .whyChoose {
+        margin-top: 130px;
+        /* padding: 0PX 100px; */
+    }
+
+    .whyChoose .overlay{
+        background-color: rgba(0, 0, 0, 0.427) !important;
+    }
+
+    .whychooseHeading {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 40px;
+        color: white;
+        font-weight: 700;
+
+    }
+    .nsWhychoose{
+        padding: 0px 0px;
+    }
+
+    .nsWhychoose .list {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        column-gap: 10px;
+    }
+
+    .nsWhychoose .list .Unlist:nth-child(1) {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        /* padding-left: 100px; */
+       padding: 0px 10px;
+
+    }
+    .nsWhychoose .list .Unlist:nth-child(2) {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        padding: 0px 10px;
+    }
+    .nsWhychoose .list .Unlist{
+        font-size: 19px;
+        color: #d9d9d9;
+        font-weight: 400;
+
+       
+    }
+
+    .nsWhychoose .list .Unlist li{
+        margin:20px 0px  !important;
+        /* background-color: white; */
+        display: flex;
+        align-items: center;
+
+    }
+
+    .nsWhychoose .list .Unlist li::before{
+        content: '';
+        display: inline-block;
+        margin-right: 5px;
+        /* z-index: 20; */
+        width: 40px;
+        height: 40px;
+        background-image: url('../icons/checkmark.svg');
+        background-size: 30px 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(6);
+    
+    }
+
+
+        /* commercial section  */
+
+
+        .commercial{
+            margin-top: -100px !important;
+
+        }
+
+
+
+    /* Our Happy Clints css  */
+
+    .nsHappyClints{
+        width: 100%;
+        height: 200px;
+        /* border: 1px solid pink; */
+        overflow-x: scroll;
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        scroll-snap-type:x mandatory ;
+        
+    }
+
+    .OHCheading{
+        font-size: 26px;
+        padding: 20px 0px;
+        margin: 10px 0px;
+        font-weight: 700;
+        background-color: #5AAAA0;
+        color: white;
+    }
+    .OHCItems{
+        width: 300px;
+        height: auto;
+        padding: 10px 0px;
+        /* border: 1px solid red; */
+        flex: none;
+        scroll-snap-align:start;
+        text-align: center;
+    
+        
+    }
+    .OHCItems img{
+    display: block;
+    line-height: 150px;
+    
+       
+    }
+
+    .nsHappyClints::-webkit-scrollbar{
+        display: none;
+    }
 }

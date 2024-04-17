@@ -13,7 +13,7 @@
         --primary: black;
         --secondery: white;
         --Tertiary: #58C819;
-        --Quaternary: #28A9E0;
+        --Quaternary: #1dbfbf;
     }
 
 
@@ -235,7 +235,8 @@
         margin: auto;
 
     }
-    .experience.m{
+
+    .experience.m {
         width: 100%;
         height: auto;
         margin-top: -30px !important;
@@ -247,10 +248,13 @@
     .expeerienceHeading {
         width: 100%;
         margin: auto;
+        background-color: #5AAAA0;
+        color: white;
+        padding: 20px 0px;
     }
 
     .expeerienceHeading h1 {
-        font-size: 48px;
+        font-size: 35px;
         text-align: black;
         font-weight: 700;
     }
@@ -407,9 +411,9 @@
     .RMain {
         width: 100%;
         height: auto;
-    
-        margin-top: 20px;
+        margin-top: 40px;
         padding: 10px 40px;
+
 
     }
 
@@ -417,7 +421,7 @@
         width: 90%;
         margin: auto;
         height: 190px;
-        
+
         margin-bottom: 20px;
         display: flex;
         align-items: center;
@@ -426,16 +430,16 @@
         padding: 10px 10px;
 
     }
-    
-    .Rrow a{
+
+    .Rrow a {
         width: 100%;
         height: 100%;
     }
 
-      .Ritems {
+    .Ritems {
         flex: 1;
         height: 100%;
-        background-color: #28A9E0;
+        background-color: #1dbfbf;
         border-radius: 70px 0px 80px 40px;
         display: flex;
         align-items: center;
@@ -467,16 +471,15 @@
 
     /* Residential  Card  Css*/
 
-    .residentialCard{
+    .residentialCard {
         margin: auto;
         padding: 10px 40px;
-        margin-top: 50px;
-        margin-bottom: 100px;
-        
+        margin-top: 60px;
+
     }
 
 
-    .ns_residentialCard{
+    .ns_residentialCard {
         width: 95%;
         height: auto;
         margin: auto;
@@ -485,32 +488,33 @@
         justify-content: start;
     }
 
-    .RCImg{
+    .RCImg {
         width: 45%;
         height: 500px;
     }
 
-    .RCcontant{
+    .RCcontant {
         width: 55%;
         height: auto;
-        padding:10px 0px 10px 50px ;
+        padding: 0px 0px 10px 50px;
     }
 
-    .ns_residentialCard .RCImg img{
+    .ns_residentialCard .RCImg img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-radius: 5px;
     }
 
 
-    .RCcontantType{
+    .RCcontantType {
         font-size: 22px;
-        color: #28A9E0;
+        color: #1dbfbf;
         font-weight: 600;
         letter-spacing: 1.5px;
     }
 
-    .ns_RCcontantType{
+    .ns_RCcontantType {
         font-size: 30px;
         font-weight: 600;
         margin: 35px 0px;
@@ -518,25 +522,246 @@
         width: 90%;
     }
 
-    .RCPera1{
+    .RCPera1 {
         font-size: 16.5px;
         width: 90%;
         margin-bottom: 40px;
 
-        
+
     }
-    .RCPera2{
+
+    .RCPera2 {
         font-size: 16.5 px;
         width: 90%;
         margin-bottom: 20px;
     }
 
 
-    .enquerybtn{
+    .enquerybtn {
         padding: 15px 50px;
         background-color: #58C819;
         color: white;
         font-weight: 600;
-        border-radius: 4px;
+        border-radius: 2px;
+    }
+
+
+
+
+    /* situations css  */
+
+    .situations.container {
+        width: 100%;
+        height: auto;
+        margin-top: 80px !important;
+        margin: auto;
+        /* padding: 0px 40px; */
+    }
+
+    .situations {
+        padding: 0px 0px;
+
+    }
+    .nssituations{
+        padding: 0px 100px;
+    }
+
+    .STheading {
+        width: 100%;
+        font-weight: 600;
+        text-align: center;
+        margin: auto;
+        background-color: #5AAAA0;
+        padding: 20px 0px;
+    }
+    .STheading h2{
+        font-size: 35px;
+        width: 70%;
+        font-weight: 600;
+        text-align: center;
+        margin: auto;
+        color: white;
+    }
+
+
+    .STcontentCard {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+
+    }
+
+    .STcard {
+        width: 50%;
+        height: 300px;
+        padding: 22px 10px;
+    }
+
+    .STcard .STnsCard {
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        background-color: #1dbfbf;
+        padding: 15px 20px;
+        border-radius: 8px;
+    }
+
+    .STnsCard_heading {
+        font-size: 26px;
+        font-weight: 600;
+        text-align: start;
+        color: white;
+
+
+    }
+
+    .STnsCardContent {
+        font-size: 18px;
+        text-align: start;
+        /* padding: 0px 30px; */
+        margin-top: 17px;
+        color: white;
+    }
+
+
+
+
+    /* Why choose  */
+
+    .whyChoose {
+        margin-top: 130px;
+        /* padding: 0PX 100px; */
+    }
+
+    .whyChoose .overlay{
+        background-color: rgba(0, 0, 0, 0.427) !important;
+    }
+
+    .whychooseHeading {
+        text-align: center;
+        font-size: 45px;
+        margin-top: 40px;
+        color: white;
+        font-weight: 700;
+
+    }
+    .nsWhychoose{
+        padding: 0px 40px;
+    }
+
+    .nsWhychoose .list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        column-gap: 20px;
+    }
+
+    .nsWhychoose .list .Unlist:nth-child(1) {
+        width: 50%;
+        height: auto;
+        /* border: 1px solid red; */
+        /* padding-left: 100px; */
+        margin-left: 20px;
+    }
+    .nsWhychoose .list .Unlist:nth-child(2) {
+        width: 50%;
+        height: auto;
+        /* border: 1px solid red; */
+        padding-left: 0px;
+    }
+    .nsWhychoose .list .Unlist{
+        font-size: 28px;
+        color: #d9d9d9;
+        font-weight: 700;
+
+       
+    }
+
+    .nsWhychoose .list .Unlist li{
+        margin:30px 0px  !important;
+        /* background-color: white; */
+        display: flex;
+        align-items: center;
+
+    }
+
+    .nsWhychoose .list .Unlist li::before{
+        content: '';
+        display: inline-block;
+        z-index: 20;
+        width: 70px;
+        height: 60px;
+        background-image: url('../icons/checkmark.svg');
+        background-size: 50px 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(6);
+    
+    }
+
+
+
+    /* commercial section  */
+
+
+    .commercial{
+        margin-top: 0px !important;
+    }
+
+
+
+
+    /* Our Happy Clints css  */
+
+    .ourHappyClints_secction{
+        margin: auto;
+    }
+
+    .nsHappyClints{
+        width: auto;
+        height: auto;
+        /* border: 1px solid pink; */
+        overflow-x: scroll;
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        scroll-snap-type:x mandatory ;
+        
+    }
+
+    .OHCheading{
+        font-size: 35px;
+        padding: 20px 0px;
+        margin: 10px 0px;
+        font-weight: 700;
+        background-color: #5AAAA0;
+        color: white;
+    }
+
+    .OHCItems{
+        width: 300px;
+        height: auto;
+        padding: 10px 0px;
+        /* border: 1px solid red; */
+        flex: none;
+        scroll-snap-align:center;
+        text-align: center;
+    
+        
+    }
+    .OHCItems img{
+    display: block;
+    line-height: 150px;
+    
+       
+    }
+
+    .nsHappyClints::-webkit-scrollbar{
+        display: none;
     }
 }
