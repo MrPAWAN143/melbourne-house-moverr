@@ -404,10 +404,10 @@
 
 
                 <div class="main_heading">
-                    <h1 class=' font-bold '>Welcome to
-                        Holloway Removals.</h1>
+                    <h1 class=' font-bold '>Professional Removalists Melbourne</h1>
 
-                    <h2 class="">AFRA Fleet of The Year 2022</h2>
+                    <h2 class="">Are you looking cheapest removalists melbourne? Hire us for house removal, furniture
+                        removal, office removal etc.</h2>
 
                     <div class="destination">
                         <form action="">
@@ -430,12 +430,12 @@
 
 
 
+        <div class="expeerienceHeading ourexpertise">
+            <h1 class="text-center">Our Expertise</h1>
 
+        </div>
         <div class="container experience m">
-            <div class="expeerienceHeading">
-                <h1 class="text-center">Experience the Holloway difference</h1>
-                <p class="text-center">Pack, move, store and more with the help of our Sydney removals experts.</p>
-            </div>
+
 
 
             <div class="serviceType">
@@ -448,10 +448,11 @@
                                     <img src="assest/icons/home.png" alt="">
                                 </div>
                                 <div class="card_discription">
-                                    <h3 class='cardHeading'>Residential Moving</h3>
-                                    <p class='card_para'>Whether you’re moving around the corner or across Australia,
-                                        our experts make planning and executing your move simple ... <br> <a href=""
-                                            class='text-[#58C819] seeMore '>See More</a></p>
+                                    <h3 class='cardHeading'>House Removalists</h3>
+                                    <p class='card_para'>Relax on moving day with Melbourne Central Movers. Our House
+                                        Removalists handle everything from packing to transportation, making your move
+                                        stress-free. ... <br> <a href="" class='text-[#58C819] seeMore '>See More</a>
+                                    </p>
                                 </div>
                             </div>
 
@@ -465,10 +466,10 @@
                                     <img src="assest/icons/shop.png" alt="">
                                 </div>
                                 <div class="card_discription">
-                                    <h3 class='cardHeading'>Business Relocations</h3>
-                                    <p class='card_para'>Minimise downtime and disruptions when moving your business
-                                        with our team of logistical experts and dedicated project managers ... <br> <a
-                                            href="" class='text-[#58C819] seeMore'>See More</a></p>
+                                    <h3 class='cardHeading'>Furniture Removalists</h3>
+                                    <p class='card_para'>Move your furniture with ease. Melbourne Central Movers ensures
+                                        your bulky items arrive safely at your new place. ... <br> <a href=""
+                                            class='text-[#58C819] seeMore'>See More</a></p>
                                 </div>
                             </div>
                         </div>
@@ -480,9 +481,9 @@
                                     <img src="assest/icons/box.png" alt="">
                                 </div>
                                 <div class="card_discription">
-                                    <h3 class='cardHeading'>Secure Storage</h3>
-                                    <p class='card_para'>Give your home or office and where house room to grow with our
-                                        convenient self-storage options that bring secure storage to your door ... <br>
+                                    <h3 class='cardHeading'>Office Removalists</h3>
+                                    <p class='card_para'>Minimize office downtime with Melbourne Central Movers. Our
+                                        team specializes in quick and careful office relocations. ... <br>
                                         <a href="" class='text-[#58C819] seeMore'>See More</a>
                                     </p>
                                 </div>
@@ -496,9 +497,10 @@
                                     <img src="assest/icons/package.png" alt="">
                                 </div>
                                 <div class="card_discription">
-                                    <h3 class='cardHeading'>Professional Packing</h3>
-                                    <p class='card_para'>With a huge range of professional packaging and specialist
-                                        teams, we’ll pack and unpack for you, so your new home is turn-key ... <br> <a
+                                    <h3 class='cardHeading'>Hire 2 Men & turck</h3>
+                                    <p class='card_para'>
+                                        Need a hand with your move? Melbourne Central Movers offers "Hire 2 Men & Truck"
+                                        service for efficient loading, unloading, and transportation. ... <br> <a
                                             href="" class='text-[#58C819] seeMore'>See More</a></p>
                                 </div>
                             </div>
@@ -655,20 +657,22 @@
 
                 <div class="RCcontant">
 
-                    <h3 class='RCcontantType'>
+                    <h3 class='RCcontantType hidden'>
                         RESIDENTIAL
                     </h3>
 
                     <h2 class='ns_RCcontantType '>
-                        Powering expert removals across Australia.
+                        The Cheapest Removalists in Melbourne and Nearby Suburbs
+
                     </h2>
 
-                    <p class='RCPera1'>Searching for house removals in Sydney? Need a secure storage facility for
-                        household goods?
-                        Looking for a quick move? Welcome to Holloway Removals & Storage.</p>
-                    <p class='RCPera1'>Holloway offers the best house removalists and best removal company in Sydney,
-                        including
-                        residential services for both local & interstate removals.
+                    <p class='RCPera1'>Looking for affordable yet reliable removalists in Melbourne and its surrounding
+                        suburbs? Look no further than Melbourne Central Movers. We understand the importance of a
+                        budget-friendly move without compromising on quality service.</p>
+                    <p class='RCPera2'>Our commitment to offering competitive rates sets us apart as the go-to choice
+                        for those seeking the best value for their moving needs. Whether you're relocating within
+                        Melbourne or to a nearby suburb, we offer budget-friendly solutions without sacrificing the
+                        professionalism and efficiency you deserve.
                     </p>
 
 
@@ -775,9 +779,7 @@
 
                 <div class="RCcontant">
 
-                    <h3 class='RCcontantType'>
-                        COMMERCIAL
-                    </h3>
+
 
                     <h2 class='ns_RCcontantType '>
                         Don’t trust your business move to just anybody.
@@ -804,161 +806,181 @@
 
 
 
-
-
-        <div class="container experience residential">
-            <div class="expeerienceHeading">
-                <h1 class="text-center">Commercial Removalists.</h1>
+        <div class="container estimated">
+            <div class="expeerienceHeading estimatedPricing">
+                <h1 class="text-center">Get Estimated Pricing</h1>
 
             </div>
 
-            <div class="RMain">
-                <div class="Rrow">
-                    <a href="" target="_blank">
-                        <div class="Ritems ">
-                            <h3 class=''>Business Relocation</h3>
-                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g>
-                                    <path
-                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
-                                </g>
-                            </svg>
-                        </div>
-                    </a>
 
-                    <a href="" target="_blank">
-                        <div class="Ritems">
-                            <h3 class=''>Warehousing</h3>
-                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g>
-                                    <path
-                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
-                                </g>
-                            </svg>
-                        </div>
-                    </a>
+            <div class="EstimatedSection">
+                <div class="EsPitem">
+                    <div class="ESicon">
+                        <img src="assest/icons/commercial.svg" alt="">
+                    </div>
+                    <div class="EScontent">
+                        <h3>2 MEN AND A 4.5 TON TRUCK</h3>
 
-                    <a href="" target='_blank'>
-                        <div class="Ritems">
-                            <h3 class=''>Self Storage</h3>
-                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g>
-                                    <path
-                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
-                                </g>
-                            </svg>
-                        </div>
-                    </a>
+                        <ul>
+                            <li>TV protection</li>
+                            <li>Use of the mattress covers</li>
+                            <li>Dismantling TV's from the wall (no mounting)</li>
+                            <li>Use of up to 4 wardrobe boxes</li>
+                            <li>Packing and wrapping up furniture in blankets</li>
+                            <li>Tape and shrink wrap</li>
+                            <li> Disassembling and reassembling furniture</li>
+                        </ul>
+                    </div>
 
-                    <a href="" target='_blank'>
-                        <div class="Ritems">
-                            <h3 class=''>Events $ Expo logistics</h3>
-                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g>
-                                    <path
-                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
-                                </g>
-                            </svg>
-                        </div>
+                    <div class="ESbutton">
+                        <a href="" class="EsBtn">Get Estimated Now</a>
+                    </div>
 
-                    </a>
                 </div>
-                <div class="Rrow">
+                <div class="EsPitem">
+                    <div class="ESicon">
+                        <img src="assest/icons/commercial.svg" alt="">
+                    </div>
+                    <div class="EScontent">
+                        <h3>2 PEOPLE AND A 6 TON TRUCK</h3>
 
-                    <a href="" target="_blank">
+                        <ul>
+                            <li>TV protection</li>
+                            <li>Use of the mattress covers</li>
+                            <li>Dismantling TV's from the wall (no mounting)</li>
+                            <li>Use of up to 4 wardrobe boxes</li>
+                            <li>Packing and wrapping up furniture in blankets</li>
+                            <li>Tape and shrink wrap</li>
+                            <li> Disassembling and reassembling furniture</li>
+                        </ul>
+                    </div>
 
-                        <div class="Ritems">
-                            <h3 class=''>Arts and Antiques</h3>
-                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g>
-                                    <path
-                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
-                                </g>
-                            </svg>
-                        </div>
+                    <div class="ESbutton">
+                        <a href="" class="EsBtn">Get Estimated Now</a>
+                    </div>
 
-                    </a>
-
-                    <a href="" target="_blank">
-                        <div class="Ritems">
-                            <h3 class=''>Rubbish Removals</h3>
-                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g>
-                                    <path
-                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
-                                </g>
-                            </svg>
-                        </div>
-
-
-                    </a>
-
-                    <a href="" target="_blank">
-                        <div class="Ritems">
-                            <h3 class=''>FFE</h3>
-                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g>
-                                    <path
-                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
-                                </g>
-                            </svg>
-                        </div>
-
-                    </a>
-
-
-                    <a href="" target="_blank">
-                        <div class="Ritems">
-                            <h3 class=''>Property Styling logistics</h3>
-                            <svg class='rightUpArrow' enable-background="new 0 0 64 64" viewBox="0 0 64 64"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g>
-                                    <path
-                                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z" />
-                                </g>
-                            </svg>
-                        </div>
-
-                    </a>
                 </div>
+
+                <div class="EsPitem">
+                    <div class="ESicon">
+                        <img src="assest/icons/commercial.svg" alt="">
+                    </div>
+                    <div class="EScontent">
+                        <h3>2 PEOPLE AND A 10 TON TRUCK</h3>
+
+                        <ul>
+                            <li>TV protection</li>
+                            <li>Use of the mattress covers</li>
+                            <li>Dismantling TV's from the wall (no mounting)</li>
+                            <li> Use of up to 4 wardrobe boxes</li>
+                            <li>Packing and wrapping up furniture in blankets</li>
+                            <li>Tape and shrink wrap</li>
+                            <li>Disassembling and reassembling furniture</li>
+                        </ul>
+                    </div>
+
+                    <div class="ESbutton">
+                        <a href="" class="EsBtn">Get Estimated Now</a>
+                    </div>
+
+                </div>
+
             </div>
+        </div>
 
 
 
 
+        <div class="container requestAFreeQuote">
+            <div class="ns_requestAFreeQuote">
+                <div class="RequestItems">
+
+                    <h3> HIRE PROFESSIONAL REMOVALISTS</h3>
+                    <p>Melbourne Central Movers Is The Best Moving Company In Town. We Have Years Of Experience, And
+                        We're Fully Insured So You Can Relax Knowing Your Belongings Are In Safe Hands.</p>
+
+                    <div class="ReqEnq">
+
+                        <a href="mailto:-info@melbournecentralmovers.com.au">info@melbournecentralmovers.com.au</a>
+
+                        <a href="tel:+1300163694">Call: 1300163694</a>
+
+                    </div>
+
+                    <div class="ReqCallBtn">
+                        <a href="" class="EsBtn">Click To Call Now</a>
+                    </div>
 
 
+                </div>
 
+
+                <div class="RequestItems ReqForm">
+
+                    <form action="" method="">
+
+                        <h3>Request A FREE Quote Now</h3>
+
+
+                        <div class="inputs">
+                            <div class="label">
+                                <label for="fullname">Full Name</label>
+                                <input type="text" name="name" id="fullname">
+                            </div>
+                            <div class="label">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" name="phone" id="phone">
+                            </div>
+
+                        </div>
+
+                        <div class="inputs">
+                            <div class="label">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="label">
+                                <label for="date">Date</label>
+                                <input type="date" name="date" id="date">
+                            </div>
+
+                        </div>
+
+                        <div class="inputs">
+                            <div class="label">
+                                <label for="movingfrom">Moving from?</label>
+                                <input type="text" name="movingfrom" id="movingfrom">
+                            </div>
+                            <div class="label">
+                                <label for="movingto">Moving to?</label>
+                                <input type="text" name="movingTo" id="movingto">
+                            </div>
+
+                        </div>
+                        <div class="inputs">
+                            <div class="label">
+                                <label for="message">Your Message</label>
+                                <textarea name="message" id="message"  ></textarea>
+                            </div>
+                            
+
+                        </div>
+                        <div class="inputs">
+                           
+                            <button type="submit">Submit</button>
+                            
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
 
         </div>
 
 
-        <div class="container ourHappyClints_secction">
-
-            <h2 class='text-center OHCheading'>Our happy clients</h2>
-
-            <div class="nsHappyClints">
-                <div class="OHCItems"><img src="assest/images/commbank.webp" alt=""></div>
-                <div class="OHCItems"><img src="assest/images/crown-group.webp" alt=""></div>
-                <div class="OHCItems"><img src="assest/images/canterbury.webp" alt=""></div>
-                <div class="OHCItems"><img src="assest/images/ghd.webp" alt=""></div>
-                <div class="OHCItems"><img src="assest/images/ingenia.webp" alt=""></div>
-                <div class="OHCItems"><img src="assest/images/manitou.webp" alt=""></div>
-                <div class="OHCItems"><img src="assest/images/mi-asia-pacific.webp" alt=""></div>
-                <div class="OHCItems"><img src="assest/images/nsw-ambulance.webp" alt=""></div>
-                <div class="OHCItems"><img src="assest/images/nsw-police-force.webp" alt=""></div>
-
-
-            </div>
-
-        </div>
 
 
     </div>

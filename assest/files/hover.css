@@ -18,6 +18,10 @@
 }
 
 .Rrow a .Ritems:hover{
-    background-color: #257090;
+    background-color: #0f6161;
 transition: 500ms ;
+}
+
+.ReqEnq a:hover{
+color: #58C819;
 }
