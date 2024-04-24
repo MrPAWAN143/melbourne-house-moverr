@@ -883,72 +883,76 @@
 
 
 
-    .requestAFreeQuote{
+    .requestAFreeQuote {
         width: 100%;
         height: auto;
-       
+
         padding: 0px 30px;
         background-color: #53565a;
         margin: auto;
         margin-top: 60px;
     }
 
-    .ns_requestAFreeQuote{
+    .ns_requestAFreeQuote {
         width: 100%;
         height: 100%;
         display: flex;
         align-items: center;
         column-gap: 20px;
-        padding: 30px 20px ;
-    
+        padding: 30px 20px;
+
     }
 
-    .RequestItems{
+    .RequestItems {
         flex: 1;
         height: 100%;
         padding: 0px 20px;
-    
+
     }
-    .RequestItems:nth-child(1){
+
+    .RequestItems:nth-child(1) {
         padding-left: 50px;
     }
 
-    .ReqForm{
+    .ReqForm {
         background-color: #8b8d904c;
         padding-bottom: 12px;
         border: 2px solid #58C819;
-        
+
     }
 
-    .RequestItems h3{
+    .RequestItems h3 {
         font-size: 40px;
         color: white;
-        
+
     }
-    .RequestItems p{
+
+    .RequestItems p {
         font-size: 18px;
         color: white;
         margin-top: 20px;
         width: 90%;
-        
+
     }
 
 
-    .ReqEnq{
+    .ReqEnq {
         width: 100%;
         height: auto;
         margin-top: 40px;
     }
-    .ReqEnq a{
+
+    .ReqEnq a {
         color: white;
         display: flex;
         align-items: center;
         justify-content: start;
         margin-top: 10px;
-       
+
     }
-    .ReqEnq a:nth-child(1)::before{
-       display: block;
+
+    .ReqEnq a:nth-child(1)::before {
+        display: block;
         content: '';
         width: 20px;
         height: 20px;
@@ -959,11 +963,12 @@
         background-position: center;
         filter: invert();
         cursor: pointer;
-        
+
 
     }
-    .ReqEnq a:nth-child(2)::before{
-       display: block;
+
+    .ReqEnq a:nth-child(2)::before {
+        display: block;
         content: '';
         width: 20px;
         height: 20px;
@@ -977,15 +982,17 @@
 
     }
 
-    .ReqCallBtn{
+    .ReqCallBtn {
         margin-top: 30px;
 
     }
-    .ReqCallBtn a{
+
+    .ReqCallBtn a {
         display: inline-block;
-        
+
     }
-    .ReqForm form h3{
+
+    .ReqForm form h3 {
         font-size: 35px;
         margin-top: 20px;
         margin-bottom: 15px;
@@ -993,7 +1000,7 @@
         color: white;
     }
 
-    .inputs{
+    .inputs {
         width: 100%;
         height: auto;
         padding: 10px 10px;
@@ -1001,12 +1008,13 @@
         column-gap: 20px;
         margin-top: 0px;
     }
-    .inputs .label{
+
+    .inputs .label {
         flex: 1;
     }
-    
 
-    .inputs input{
+
+    .inputs input {
         background-color: transparent;
         padding: 5px 10px;
         border: 1px solid white;
@@ -1016,7 +1024,8 @@
         color: rgb(211, 211, 211);
         display: block;
     }
-    .inputs textarea{
+
+    .inputs textarea {
         background-color: transparent;
         padding: 5px 10px;
         border: 1px solid white;
@@ -1028,21 +1037,21 @@
         resize: none;
     }
 
-    .inputs textarea:focus{
-        background-color: rgba(219, 219, 219, 0.77);
-        color: rgb(70, 70, 70);
-    }
-   
-    .inputs input:focus{
+    .inputs textarea:focus {
         background-color: rgba(219, 219, 219, 0.77);
         color: rgb(70, 70, 70);
     }
 
-    .inputs .label label{
+    .inputs input:focus {
+        background-color: rgba(219, 219, 219, 0.77);
+        color: rgb(70, 70, 70);
+    }
+
+    .inputs .label label {
         color: white;
     }
 
-    .inputs button{
+    .inputs button {
         padding: 6px 40px;
         background-color: #58C819;
         color: white;
@@ -1051,15 +1060,192 @@
         font-size: 20px;
     }
 
-    .inputs input[type="date"]:focus::-webkit-calendar-picker-indicator{
+    .inputs input[type="date"]:focus::-webkit-calendar-picker-indicator {
         filter: invert(0);
-  
-      }
-
-    .inputs input[type="date"]::-webkit-calendar-picker-indicator{
-      filter: invert(1);
-      cursor: pointer;
 
     }
+
+    .inputs input[type="date"]::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+        cursor: pointer;
+
+    }
+
+
+
+
+
+    /* testimonials  css */
+
+
+
+    .testimonials {
+        width: 100%;
+        /* height: 300px; */
+        margin: auto;
+        background-color: white;
+        margin-top: 50px;
+
+    }
+
+    .ns_testimonials {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        column-gap: 50px;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        padding: 20px 40px !important;
+    }
+
+    .reviews:nth-child(:last-child){
+        margin-right: 0px;
+    }
+
+    .testimonialsHeading {
+        margin-bottom: 50px;
+    }
+
+    .ns_testimonials::-webkit-scrollbar {
+        display: none;
+    }
+
+    .reviews {
+        flex: none;
+        width: 400px;
+        height: 240px;
+        scroll-snap-align: start;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -10px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        ;
+    }
+
+    .profile {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #58C819;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .profile img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .profileDetails {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .profileMain {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 30px 40px 15px 30px;
+
+    }
+
+    .ppPd {
+        display: flex;
+        align-items: center;
+    }
+
+    .reviewHolder {
+        margin-left: 10px;
+        display: block;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .Revemail {
+        font-size: 10px;
+        margin-left: 10px;
+        color: #6d7074;
+
+    }
+
+    .star {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        width: 100px;
+        height: 20px;
+        gap: 5px;
+    }
+    .laststar{
+        color: #FABC05;
+    }
+
+    .star .checked {
+        color: #FABC05;
+    }
+
+    .Reviewcontent {
+        padding: 0px 40px 40px 40px;
+
+    }
+
+    .Reviewcontent {
+        font-size: 14px;
+    }
+
+
+
+    /* Area We Serve  Location*/
+
+    .areaLocation{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        margin-top: 50px !important;
+        margin: auto;
+    }
+
+    .ns_location{
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px 30px 50px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        column-gap: 40px;
+
+    }
+
+    .AreaItems{
+        flex: 1;
+        height: auto;
+        /* border: 1px solid blue; */
+    }
+    .areasList{
+        font-size: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .areasList::before{
+        content: '';
+        width: 25px;
+        height: 25px;
+        background-image: url('../icons/location.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px 25px;
+         margin-right: 5px;
+    }
+    .areasList svg{
+       
+        margin-right: 5px;
+        fill: black;
+    }
+
+
 
 }

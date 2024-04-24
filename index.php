@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="assest/files/tablets.css">
     <link rel="stylesheet" href="assest/files/desktop.css">
     <link rel="stylesheet" href="assest/files/hover.css">
+    <link rel="stylesheet" href="assest/files/font-awesome-4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -960,21 +962,427 @@
                         <div class="inputs">
                             <div class="label">
                                 <label for="message">Your Message</label>
-                                <textarea name="message" id="message"  ></textarea>
+                                <textarea name="message" id="message"></textarea>
                             </div>
-                            
+
 
                         </div>
                         <div class="inputs">
-                           
+
                             <button type="submit">Submit</button>
-                            
+
 
                         </div>
 
                     </form>
 
                 </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="container testimonials">
+            <div class="expeerienceHeading testimonialsHeading">
+                <h1 class="text-center">Testimonials</h1>
+
+            </div>
+
+            <div class="ns_testimonials">
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://img.freepik.com/premium-photo/portrait-happy-young-casual-man-standing_171337-29744.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Pawan kumar</span>
+                                <a href="" class='Revemail'>pkumarrana143@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-half-o checked"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>Melbourne Central movers are great! They are reliable and trustworthy. We had a large
+                            furniture order which
+                            they took care of in a timely manner. I would highly recommend their services to anyone
+                            wanting to have their furniture taken away and stored.</p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://image.shutterstock.com/image-photo/smiling-young-middle-eastern-man-260nw-2063524544.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Annie McAuley</span>
+                                <a href="" class='Revemail'>anniemcAuley@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <!-- <i class="fa fa-star-half-o checked"></i> -->
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>Hi, I am a customer of Melbourne Central Movers and I am very satisfied with their service.
+                            The company is cost-effective and reliable.
+                            They are always on time and willing to help with any task. I would highly recommend them to
+                            anyone looking for a removalsist in Melbourne.</p>
+                    </div>
+                </div>
+
+
+
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Chris porter</span>
+                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-o laststar"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>I had to move some furniture from one house to another across town. I called these guys up,
+                            just trying out a new company, and they were amazing. I will definitely recommend their
+                            services to anyone who needs a
+                            professional moving company.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Chris porter</span>
+                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-o laststar"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>I had to move some furniture from one house to another across town. I called these guys up,
+                            just trying out a new company, and they were amazing. I will definitely recommend their
+                            services to anyone who needs a
+                            professional moving company.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Chris porter</span>
+                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-o laststar"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>I had to move some furniture from one house to another across town. I called these guys up,
+                            just trying out a new company, and they were amazing. I will definitely recommend their
+                            services to anyone who needs a
+                            professional moving company.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Chris porter</span>
+                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-o laststar"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>I had to move some furniture from one house to another across town. I called these guys up,
+                            just trying out a new company, and they were amazing. I will definitely recommend their
+                            services to anyone who needs a
+                            professional moving company.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Chris porter</span>
+                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-o laststar"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>I had to move some furniture from one house to another across town. I called these guys up,
+                            just trying out a new company, and they were amazing. I will definitely recommend their
+                            services to anyone who needs a
+                            professional moving company.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="container areaLocation">
+
+            <div class="expeerienceHeading testimonialsHeading">
+                <h1 class="text-center">AREA WE SERVE</h1>
+
+            </div>
+            <div class="ns_location">
+
+                <ul class="AreaItems">
+
+                    <li class='areasList'>Point Cook </li>
+                    <li class='areasList'>Elsternwick</li>
+                    <li class='areasList'>Craigieburn</li>
+                    <li class='areasList'>Ferntree Gully</li>
+                    <li class='areasList'>camberwell</li>
+                    <li class='areasList'>Laverton North</li>
+                    <li class='areasList'>Greensborough</li>
+                    <li class='areasList'> Ringwood</li>
+                    <li class='areasList'>Beaconsfield</li>
+                    <li class='areasList'>Frankston</li>
+                    <li class='areasList'>Truganina</li>
+                    <li class='areasList'>Ivanhoe</li>
+                    <li class='areasList'>Murrumbeena</li>
+                    <li class='areasList'>Ashwood</li>
+                    <li class='areasList'>Abbotsford</li>
+                    <li class='areasList'>Abbotsford</li>
+                    <li class='areasList'>Delahey</li>
+                    <li class='areasList'>Keilor North Warrandyte</li>
+                    <li class='areasList'>Tremount</li>
+                    <li class='areasList'>Glen Huntly</li>
+                    <li class='areasList'>Chelsea heights</li>
+                    <li class='areasList'> Hadfiled</li>
+                    <li class='areasList'>yallambie</li>
+                    <li class='areasList'>Westmeadowns</li>
+                    <li class='areasList'> Clematis</li>
+                    <li class='areasList'>Hampton East</li>
+                    <li class='areasList'>Somerton</li>
+                    <li class='areasList'> Williamstown North</li>
+                    <li class='areasList'>Attwood</li>
+                    <li class='areasList'>St Kilda West</li>
+                    <li class='areasList'>Kalorama</li>
+                    <li class='areasList'>Essendon North</li>
+                    <li class='areasList'>Hurstbridge</li>
+                    <li class='areasList'> Ripponlea</li>
+                    <li class='areasList'>Laverton</li>
+                    <li class='areasList'>Ivanhoe</li>
+                    <li class='areasList'>Oakleigh</li>
+                    <li class='areasList'>Dandenong North</li>
+                    <li class='areasList'>Gowanbrae</li>
+                    <li class='areasList'>Jacana</li>
+                    <li class='areasList'>Keilor</li>
+                    <li class='areasList'> Mont Albert North</li>
+                    <li class='areasList'>Princes Hill</li>
+
+
+                </ul>
+
+
+                <ul class="AreaItems">
+
+                <li class='areasList'>Crib Point</li>
+                <li class='areasList'>Rosebud</li>
+                <li class='areasList'>Essendon</li>
+                <li class='areasList'>Rowville</li>
+                <li class='areasList'>Springvale</li>
+                <li class='areasList'>Melton</li>
+                <li class='areasList'>Ashburton</li>
+                <li class='areasList'>Dandenong North</li>
+                <li class='areasList'>Gowanbrae</li>
+                <li class='areasList'>Jacana</li>
+                <li class='areasList'>Keilor</li>
+                <li class='areasList'>Ferny Creek</li>
+                <li class='areasList'>Caulfield North</li>
+                <li class='areasList'>Camberwell</li>
+                <li class='areasList'>Laverton North</li>
+                <li class='areasList'>Rosebud West</li>
+                <li class='areasList'>Travancore</li>
+                <li class='areasList'>Park Orchards</li>
+                <li class='areasList'>Bellfield</li>
+                <li class='areasList'>Cheltenham</li>
+                <li class='areasList'>Altona North</li>
+                <li class='areasList'>Harkaway</li>
+                <li class='areasList'>Fitzroy north</li>
+                <li class='areasList'>Gladstone Park</li>
+                <li class='areasList'>Botanic Ridge</li>
+                <li class='areasList'>Aberfeldie</li>
+                <li class='areasList'>Skye</li>
+                <li class='areasList'>Tecoma</li>
+                <li class='areasList'>Mill Park</li>
+                <li class='areasList'>Mooroolbark</li>
+                <li class='areasList'>Tecoma</li>
+                <li class='areasList'>Bayswater North</li>
+                <li class='areasList'>Hamton Park</li>
+                <li class='areasList'>St Albans</li>
+                <li class='areasList'>Noble Park</li>
+                <li class='areasList'>St kilda</li>
+                <li class='areasList'>Richmond</li>
+                <li class='areasList'>Glenroy</li>
+                <li class='areasList'>Croydon</li>
+                <li class='areasList'>Endeavour Hills</li>
+                <li class='areasList'>Whittlesea</li>
+                <li class='areasList'>Boronia</li>
+                <li class='areasList'>Eltham North</li>
+
+
+                </ul>
+
+
+
+                <ul class="AreaItems">
+
+                <li class='areasList'>Berwick</li>
+                </ul>
+
+
+
+                <ul class="AreaItems">
+                <li class='areasList'> Balwyn North</li>
+
+                </ul>
+
+
+                <ul class="AreaItems">
+                <li class='areasList'>Collingwood</li>
+
+                </ul>
+
 
             </div>
 
