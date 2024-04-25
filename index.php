@@ -1258,7 +1258,7 @@
 
         <div class="container areaLocation">
 
-            <div class="expeerienceHeading testimonialsHeading">
+            <div class="expeerienceHeading testimonialsHeading Areaserve">
                 <h1 class="text-center">AREA WE SERVE</h1>
 
             </div>
@@ -1316,49 +1316,49 @@
 
                 <ul class="AreaItems">
 
-                <li class='areasList'>Crib Point</li>
-                <li class='areasList'>Rosebud</li>
-                <li class='areasList'>Essendon</li>
-                <li class='areasList'>Rowville</li>
-                <li class='areasList'>Springvale</li>
-                <li class='areasList'>Melton</li>
-                <li class='areasList'>Ashburton</li>
-                <li class='areasList'>Dandenong North</li>
-                <li class='areasList'>Gowanbrae</li>
-                <li class='areasList'>Jacana</li>
-                <li class='areasList'>Keilor</li>
-                <li class='areasList'>Ferny Creek</li>
-                <li class='areasList'>Caulfield North</li>
-                <li class='areasList'>Camberwell</li>
-                <li class='areasList'>Laverton North</li>
-                <li class='areasList'>Rosebud West</li>
-                <li class='areasList'>Travancore</li>
-                <li class='areasList'>Park Orchards</li>
-                <li class='areasList'>Bellfield</li>
-                <li class='areasList'>Cheltenham</li>
-                <li class='areasList'>Altona North</li>
-                <li class='areasList'>Harkaway</li>
-                <li class='areasList'>Fitzroy north</li>
-                <li class='areasList'>Gladstone Park</li>
-                <li class='areasList'>Botanic Ridge</li>
-                <li class='areasList'>Aberfeldie</li>
-                <li class='areasList'>Skye</li>
-                <li class='areasList'>Tecoma</li>
-                <li class='areasList'>Mill Park</li>
-                <li class='areasList'>Mooroolbark</li>
-                <li class='areasList'>Tecoma</li>
-                <li class='areasList'>Bayswater North</li>
-                <li class='areasList'>Hamton Park</li>
-                <li class='areasList'>St Albans</li>
-                <li class='areasList'>Noble Park</li>
-                <li class='areasList'>St kilda</li>
-                <li class='areasList'>Richmond</li>
-                <li class='areasList'>Glenroy</li>
-                <li class='areasList'>Croydon</li>
-                <li class='areasList'>Endeavour Hills</li>
-                <li class='areasList'>Whittlesea</li>
-                <li class='areasList'>Boronia</li>
-                <li class='areasList'>Eltham North</li>
+                    <li class='areasList'>Crib Point</li>
+                    <li class='areasList'>Rosebud</li>
+                    <li class='areasList'>Essendon</li>
+                    <li class='areasList'>Rowville</li>
+                    <li class='areasList'>Springvale</li>
+                    <li class='areasList'>Melton</li>
+                    <li class='areasList'>Ashburton</li>
+                    <li class='areasList'>Dandenong North</li>
+                    <li class='areasList'>Gowanbrae</li>
+                    <li class='areasList'>Jacana</li>
+                    <li class='areasList'>Keilor</li>
+                    <li class='areasList'>Ferny Creek</li>
+                    <li class='areasList'>Caulfield North</li>
+                    <li class='areasList'>Camberwell</li>
+                    <li class='areasList'>Laverton North</li>
+                    <li class='areasList'>Rosebud West</li>
+                    <li class='areasList'>Travancore</li>
+                    <li class='areasList'>Park Orchards</li>
+                    <li class='areasList'>Bellfield</li>
+                    <li class='areasList'>Cheltenham</li>
+                    <li class='areasList'>Altona North</li>
+                    <li class='areasList'>Harkaway</li>
+                    <li class='areasList'>Fitzroy north</li>
+                    <li class='areasList'>Gladstone Park</li>
+                    <li class='areasList'>Botanic Ridge</li>
+                    <li class='areasList'>Aberfeldie</li>
+                    <li class='areasList'>Skye</li>
+                    <li class='areasList'>Tecoma</li>
+                    <li class='areasList'>Mill Park</li>
+                    <li class='areasList'>Mooroolbark</li>
+                    <li class='areasList'>Tecoma</li>
+                    <li class='areasList'>Bayswater North</li>
+                    <li class='areasList'>Hamton Park</li>
+                    <li class='areasList'>St Albans</li>
+                    <li class='areasList'>Noble Park</li>
+                    <li class='areasList'>St kilda</li>
+                    <li class='areasList'>Richmond</li>
+                    <li class='areasList'>Glenroy</li>
+                    <li class='areasList'>Croydon</li>
+                    <li class='areasList'>Endeavour Hills</li>
+                    <li class='areasList'>Whittlesea</li>
+                    <li class='areasList'>Boronia</li>
+                    <li class='areasList'>Eltham North</li>
 
 
                 </ul>
@@ -1367,20 +1367,145 @@
 
                 <ul class="AreaItems">
 
-                <li class='areasList'>Berwick</li>
+                    <li class='areasList'>Berwick</li>
+                    <li class='areasList'>Eltham</li>
+                    <li class='areasList'>Brunswick</li>
+                    <li class='areasList'>Epping</li>
+                    <li class='areasList'>Cranbourne East</li>
+                    <li class='areasList'>Werribee</li>
+                    <li class='areasList'>Kingsville</li>
+                    <li class='areasList'>Somerville</li>
+                    <li class='areasList'>The Patch</li>
+                    <li class='areasList'>The Wandin Norht</li>
+                    <li class='areasList'>camberwell</li>
+                    <li class='areasList'>Laverton North</li>
+                    <li class='areasList'>The Sunsine Weste</li>
+                    <li class='areasList'>The Kalkallo</li>
+                    <li class='areasList'>The Rearch Avonsleigh</li>
+                    <li class='areasList'>Oakleeigh East</li>
+                    <li class='areasList'>Niddrie</li>
+                    <li class='areasList'>South Yarra</li>
+                    <li class='areasList'>Donvale</li>
+                    <li class='areasList'>Upwey</li>
+                    <li class='areasList'>Keablba</li>
+                    <li class='areasList'>Officer</li>
+                    <li class='areasList'>Cockatoo</li>
+                    <li class='areasList'>St Kilda East</li>
+                    <li class='areasList'>Meadow Heights</li>
+                    <li class='areasList'>Newport</li>
+                    <li class='areasList'>Reservoir</li>
+                    <li class='areasList'>Chelsea</li>
+                    <li class='areasList'>Wheelers Hills</li>
+                    <li class='areasList'>Dandenong North</li>
+                    <li class='areasList'>Gowanbrae</li>
+                    <li class='areasList'>Jacana</li>
+                    <li class='areasList'>Keilor</li>
+                    <li class='areasList'>pascoe Vale</li>
+                    <li class='areasList'>Highett</li>
+                    <li class='areasList'>Wantirna</li>
+                    <li class='areasList'>Lynbrook</li>
+                    <li class='areasList'>Blackburn</li>
+                    <li class='areasList'>Croydon Hills</li>
+                    <li class='areasList'>Vermont Hills</li>
+                    <li class='areasList'>Blackburn</li>
+                    <li class='areasList'>Parkville</li>
+                    <li class='areasList'>Glen Iris</li>
                 </ul>
 
 
 
                 <ul class="AreaItems">
-                <li class='areasList'> Balwyn North</li>
 
+                    <li class='areasList'>Balwyn North</li>
+                    <li class='areasList'>Dromana</li>
+                    <li class='areasList'>East Melbourne</li>
+                    <li class='areasList'>Croydon North</li>
+                    <li class='areasList'>Preston</li>
+                    <li class='areasList'>South Wharf</li>
+                    <li class='areasList'>Hmas Cerberus</li>
+                    <li class='areasList'>South Kingsville</li>
+                    <li class='areasList'>Tootgarook</li>
+                    <li class='areasList'>Seabrook</li>
+                    <li class='areasList'>camberwell</li>
+                    <li class='areasList'>Laverton North</li>
+                    <li class='areasList'>Officer</li>
+                    <li class='areasList'>Toorak</li>
+                    <li class='areasList'>Flemnigton</li>
+                    <li class='areasList'>Deepdene</li>
+                    <li class='areasList'>Jacana</li>
+                    <li class='areasList'>Seabrook</li>
+                    <li class='areasList'>Noble Park North</li>
+                    <li class='areasList'>Taylors Hills</li>
+                    <li class='areasList'>Strathmore Heights</li>
+                    <li class='areasList'>Dandenong North</li>
+                    <li class='areasList'>Gowanbrae</li>
+                    <li class='areasList'>Jacana</li>
+                    <li class='areasList'>Keilor</li>
+                    <li class='areasList'>camberwell</li>
+                    <li class='areasList'>Oak Park</li>
+                    <li class='areasList'> Safety beach</li>
+                    <li class='areasList'>Chadstone</li>
+                    <li class='areasList'>Williamstown</li>
+                    <li class='areasList'>Templetowe</li>
+                    <li class='areasList'>Dandenong North</li>
+                    <li class='areasList'>Thomastown</li>
+                    <li class='areasList'>Caulfiled</li>
+                    <li class='areasList'>Gowanbrae</li>
+                    <li class='areasList'>Armadale</li>
+                    <li class='areasList'>Wantirna south</li>
+                    <li class='areasList'>Roxburgh Park</li>
+                    <li class='areasList'>Gowanbrae</li>
+                    <li class='areasList'>Keilor</li>
+                    <li class='areasList'>Kilsyth</li>
+                    <li class='areasList'>Pearcedale</li>
+                    <li class='areasList'>Victoria</li>
                 </ul>
 
 
                 <ul class="AreaItems">
                 <li class='areasList'>Collingwood</li>
-
+                    <li class='areasList'>Mitcham</li>
+                    <li class='areasList'>Hastings</li>
+                    <li class='areasList'>Monbulk</li>
+                    <li class='areasList'>Keysorough</li>
+                    <li class='areasList'>Blackburn North</li>
+                    <li class='areasList'>Box hill</li>
+                    <li class='areasList'>Sorrento</li>
+                    <li class='areasList'> Mordialloc</li>
+                    <li class='areasList'>Port Melbourne</li>
+                    <li class='areasList'>Cranbourne North</li>
+                    <li class='areasList'>Nunawading</li>
+                    <li class='areasList'>Deer park</li>
+                    <li class='areasList'>Aspendable Gardens</li>
+                    <li class='areasList'>Doveton</li>
+                    <li class='areasList'>Ormond</li>
+                    <li class='areasList'>Forest Hills</li>
+                    <li class='areasList'>Hawthorn East</li>
+                    <li class='areasList'>Ardeer</li>
+                    <li class='areasList'>Middle park</li>
+                    <li class='areasList'>Kew</li>
+                    <li class='areasList'>Bentleigh East</li>
+                    <li class='areasList'>Laverton North</li>
+                    <li class='areasList'>Heidelberg</li>
+                    <li class='areasList'>Diamond Creek</li>
+                    <li class='areasList'>Essendone Fields</li>
+                    <li class='areasList'>Mount Evelyn</li>
+                    <li class='areasList'>Sherbrooke</li>
+                    <li class='areasList'>Burnside Heights</li>
+                    <li class='areasList'> langwarrin South</li>
+                    <li class='areasList'>Greenvale</li>
+                    <li class='areasList'>Caulfield East</li>
+                    <li class='areasList'>Keilor North</li>
+                    <li class='areasList'>Oaklands Junction</li>
+                    <li class='areasList'>At Andrews beach</li>
+                    <li class='areasList'>ballarat</li>
+                    <li class='areasList'>geelong</li>
+                    <li class='areasList'>bendigo</li>
+                    <li class='areasList'>shepparton</li>
+                    <li class='areasList'>Echuca</li>
+                    <li class='areasList'>Victoria</li>
+                    <li class='areasList'>Melbourne</li>
+                    <li class='areasList'>Northcote</li>
                 </ul>
 
 

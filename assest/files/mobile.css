@@ -2,6 +2,9 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
+    *{
+        box-sizing: border-box;
+    }
 
 
 
@@ -221,15 +224,15 @@
     }
 
     .main_heading h1 {
-        font-size: 40px;
-        color: white;
+        font-size: 45px;
+        color: rgb(228, 228, 228);
         line-height: 50px;
         letter-spacing: 2.5px;
     }
 
     .main_heading h2 {
-        font-size: 22px;
-        color: white;
+        font-size: 20px;
+        color: rgb(211, 211, 211);
         font-weight: 700;
 
     }
@@ -346,7 +349,7 @@
         right: 0px;
         bottom: 0px;
         top: 0px;
-        background-color: rgba(0, 0, 0, 0.345) !important;
+        background-color: rgba(0, 0, 0, 0.1) !important;
         border-radius: 8px;
     }
 
@@ -391,18 +394,13 @@
         width: 90%;
         height: auto;
         margin: auto;
-        /* border: 1px solid red; */
         padding: 35px 10px 10px 10px !important;
     }
 
     .card_icon {
         width: 80px;
         height: 80px;
-        /* border: 1px solid white; */
         margin: auto;
-
-        /* background-color: rgba(0, 0, 0, 0.535); */
-
     }
 
     .card_icon img {
@@ -416,12 +414,11 @@
     }
 
     .card_discription {
-        margin-top: 20px;
+        margin-top: 10px;
         width: 100%;
-        padding-top: 10px;
-        height: 230px;
-        /* border: 1px solid oldlace; */
-        background-color: rgba(0, 0, 0, 0.535);
+        padding: 10px 5px;
+        height: 240px;
+        background-color: rgba(0, 0, 0, 70%);
         border-radius: 8px;
     }
 
@@ -437,21 +434,22 @@
         color: rgb(213, 213, 213);
         text-align: center;
         font-weight: 400;
-        /* margin-top: 10px;
-        padding: 0px 10px; */
         line-height: 27px;
     }
 
     .seeMore {
         text-decoration: none;
         cursor: pointer;
-        margin-top: 10px;
-        font-size: 12px;
-        padding: 2px 20px;
+        margin-top: 8px;
+        font-size: 15px;
+        padding: 5px 25px;
         color: white;
         display: inline-block;
         background-color: #58C819;
-        border-radius: 5px;
+        border-radius: 2px;
+        position: absolute;
+        bottom: 35px;
+        transform: translateX(-50%);
 
 
     }
@@ -640,7 +638,7 @@
     }
 
     .STheading{
-        font-size: 26px;
+        font-size: 23px;
         width: 100%;
         font-weight: 600;
         text-align: center;
@@ -680,7 +678,7 @@
 
     }
     .STnsCardContent{
-        font-size: 18px;
+        font-size: 16px;
         text-align: start;
         /* padding: 0px 30px; */
         margin-top: 0px;
@@ -766,59 +764,6 @@
     }
 
 
-        /* commercial section  */
-
-
-        .commercial{
-            margin-top: -100px !important;
-
-        }
-
-
-
-    /* Our Happy Clints css  */
-
-    .nsHappyClints{
-        width: 100%;
-        height: 200px;
-        /* border: 1px solid pink; */
-        overflow-x: scroll;
-        display: flex;
-        align-items: center;
-        column-gap: 20px;
-        scroll-snap-type:x mandatory ;
-        
-    }
-
-    .OHCheading{
-        font-size: 26px;
-        padding: 20px 0px;
-        margin: 10px 0px;
-        font-weight: 700;
-        background-color: #5AAAA0;
-        color: white;
-    }
-    .OHCItems{
-        width: 300px;
-        height: auto;
-        padding: 10px 0px;
-        /* border: 1px solid red; */
-        flex: none;
-        scroll-snap-align:start;
-        text-align: center;
-    
-        
-    }
-    .OHCItems img{
-    display: block;
-    line-height: 150px;
-    
-       
-    }
-
-    .nsHappyClints::-webkit-scrollbar{
-        display: none;
-    }
 
 
     
@@ -838,11 +783,11 @@
     .EstimatedSection {
         width: 100%;
         height: auto;
-        margin-top: 60px;
+        margin-top: 50px;
         display: flex;
         flex-direction: column;
         gap: 40px;
-        padding: 0px 30px;
+        padding: 0px 15px;
 
     }
 
@@ -958,7 +903,7 @@
     }
 
     .RequestItems:nth-child(1) {
-        padding-left: 50px;
+        padding-left: 25px;
     }
 
     .ReqForm {
@@ -969,15 +914,15 @@
     }
 
     .RequestItems h3 {
-        font-size: 40px;
+        font-size: 26px;
         color: white;
 
     }
 
     .RequestItems p {
-        font-size: 18px;
+        font-size: 15px;
         color: white;
-        margin-top: 20px;
+        margin-top: 10px;
         width: 90%;
 
     }
@@ -986,7 +931,7 @@
     .ReqEnq {
         width: 100%;
         height: auto;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .ReqEnq a {
@@ -1131,7 +1076,7 @@
         /* height: 300px; */
         margin: auto;
         background-color: white;
-        margin-top: 50px;
+        margin-top: 40px;
         margin-bottom: 100px !important;
 
     }
@@ -1242,5 +1187,75 @@
     .Reviewcontent {
         font-size: 14px;
     }
+
+
+    
+
+    /* Area We Serve  Location*/
+
+    .areaLocation{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        margin-top: 50px !important;
+        margin: auto;
+        background-color: #53565a;
+     
+    }
+    .Areaserve{
+        background-color: transparent !important;
+        margin-bottom: 10px;
+    }
+
+    .ns_location{
+        width: 100%;
+        height: 100%;
+        padding: 10px 0px 30px 0px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        column-gap: 40px;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        
+
+
+    }
+ 
+
+    .AreaItems{
+        width: 40%;
+        height: auto;
+        /* border: 1px solid blue; */
+    }
+
+    .AreaItems:last-child{
+        display: none;
+    }
+    .areasList{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .areasList::before{
+        content: '';
+        width: 25px;
+        height: 25px;
+        background-image: url('../icons/location.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+         margin-right: 2px;
+         filter: invert();
+
+    }
+    
+
+
+
 
 }
