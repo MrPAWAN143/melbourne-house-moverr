@@ -1,5 +1,6 @@
 let toggal = document.querySelector('.toggal')
 
+
 toggal.addEventListener('click', function () {
    toggal.style.display = 'block'
    let phonenav = document.querySelector('.phonenav')
@@ -22,23 +23,26 @@ toggal.addEventListener('click', function () {
 
    })
 
-
-
-
-
-
    let dropdownMenu = document.querySelectorAll('.dropdownMenu')
    let dropdown_item = document.querySelectorAll('.dropdown_item')
    let downArrow = document.querySelectorAll('.downArrow')
 
-   let open = true;
-
-
    for (i = 0; i <= dropdownMenu.length; i++) {
-      dropdownMenu[i].addEventListener('click', function () {
+
+
+
+      let open = true;
+      dropdownMenu[i].addEventListener('click', function (e) {
 
          let darrow = this.childNodes[0].childNodes[1].querySelector('svg')
+
+
+
+
          if (open === true) {
+
+
+
             this.style.fontWeight = '700'
             this.style.height = 'fit-content'
             this.style.backgroundColor = '#1b1b1b'
@@ -47,8 +51,7 @@ toggal.addEventListener('click', function () {
 
             open = false
 
-
-         }else {
+         } else {
             this.style.height = '50px'
             this.style.backgroundColor = '#000000'
             this.childNodes[2].style.display = 'none'
@@ -57,32 +60,103 @@ toggal.addEventListener('click', function () {
          }
 
 
- 
+
+
       })
 
    }
 
 
-   // dropdownMenu.addEventListener('click',function(){
-   //   if(open == true){
-   //    dropdownMenu.style.height = '230px'
-   //    dropdown_item.style.display = 'block'
-   //    downArrow.style.transform = 'rotate(-180deg)'
-
-   //    open = false
-   //   }else{
-   //    dropdownMenu.style.height = '50px'
-   //    dropdown_item.style.display = 'none'
-   //    downArrow.style.transform = 'rotate(0deg)'
-
-   //    open = true
-   //   }
-   // })
-
-
-
-
-
-
-
 })
+
+
+try {
+   let getaquote = document.querySelectorAll('.getaquote')
+   for (i = 0; i <= getaquote.length; i++) {
+
+      getaquote[i].addEventListener('click', function (e) {
+
+         let popHeading = document.querySelector('.popHeading')
+        popHeading.innerHTML = 'Request A FREE Quote Now'
+
+
+         let popupform = document.querySelector('.popupForm')
+         if (e.clientX > 850) {
+
+            popupform.style.visibility = 'visible'
+            popupform.style.width = '700px'
+            popupform.style.height = '480px'
+            popupform.style.position = 'fixed'
+            popupform.style.top = '50%'
+            popupform.style.left = '50%'
+            popupform.style.zIndex = '100'
+            popupform.style.backgroundColor = '#8b8d90'
+            popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
+            popupform.style.transition = '500ms'
+            popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
+            let body = document.querySelector('body')
+            body.style.overflowY = 'hidden'
+
+            let cross = document.querySelector('.cross')
+            cross.addEventListener('click', function () {
+               popupform.style.visibility = 'hidden'
+               popupform.style.transition = '0ms'
+               body.style.overflowY = 'initial'
+            })
+
+
+
+
+
+         } else if (e.clientX > 300 && e.clientX < 850) {
+            popupform.style.visibility = 'visible'
+            popupform.style.width = '90%'
+            popupform.style.height = '450px'
+            popupform.style.position = 'fixed'
+            popupform.style.top = '50%'
+            popupform.style.left = '50%'
+            popupform.style.zIndex = '100'
+            popupform.style.backgroundColor = '#8b8d90'
+            popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
+            popupform.style.transition = '500ms'
+            popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
+
+            let body = document.querySelector('body')
+            body.style.overflowY = 'hidden'
+
+
+            let cross = document.querySelector('.cross')
+            cross.addEventListener('click', function () {
+               popupform.style.visibility = 'hidden'
+               popupform.style.transition = '0ms'
+               body.style.overflowY = 'initial'
+            })
+
+
+         } else {
+
+
+
+         }
+
+
+
+
+
+
+      })
+
+
+
+
+   }
+} catch (error) {
+   console.log(error)
+}
+
+
+
+
+
+
+

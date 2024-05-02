@@ -25,3 +25,12 @@ transition: 500ms ;
 .ReqEnq a:hover{
 color: #58C819;
 }
+
+.reviewSliderLeftBtn:hover ,.reviewSliderRightBtn:hover{
+    /* background-color: #59c81987; */
+    transition: 500ms;
+}
+.reviewSliderRightBtn:hover svg , .reviewSliderLeftBtn:hover svg{
+    fill: rgb(0, 0, 0);
+    transition: 500ms;
+}

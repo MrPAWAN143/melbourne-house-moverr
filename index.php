@@ -11,10 +11,120 @@
     <link rel="stylesheet" href="assest/files/desktop.css">
     <link rel="stylesheet" href="assest/files/hover.css">
     <link rel="stylesheet" href="assest/files/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
 
 </head>
 
 <body>
+
+
+
+    <form action="" method='' class='popupForm'>
+        <h3 class='popHeading'>Request A FREE Quote Now</h3>
+
+
+        <div class="inputs">
+            <div class="label">
+                <label for="fullname">Full Name</label>
+                <input type="text" name="name" id="fullname">
+            </div>
+            <div class="label">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+
+        </div>
+
+        <div class="inputs ">
+            <div class="label">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="label">
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+
+        </div>
+
+        <div class="inputs">
+            <div class="label">
+                <label for="movingfrom">Moving from?</label>
+                <input type="text" name="movingfrom" id="movingfrom">
+            </div>
+            <div class="label">
+                <label for="movingto">Moving to?</label>
+                <input type="text" name="movingTo" id="movingto">
+            </div>
+
+        </div>
+        <div class="inputs">
+            <div class="label">
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+
+
+        </div>
+        <div class="inputs">
+
+            <button type="submit">Submit</button>
+
+
+        </div>
+
+
+
+        <span class='cross'>X</span>
+    </form>
+
+
+    <form action="" method='' class='popupForm2'>
+        <h3 class='popHeading'>Get Free Quote</h3>
+
+
+        <div class="inputs">
+            <div class="label">
+                <label for="fullname">Full Name</label>
+                <input type="text" name="name" id="fullname">
+            </div>
+        </div>
+
+        <div class="inputs">
+            <div class="label">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+        </div>
+
+        <div class="inputs ">
+            <div class="label">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="inputs popup2lastchild">
+
+            <button type="submit">Submit</button>
+
+
+        </div>
+
+
+
+        <span class='cross'>X</span>
+    </form>
+
+
+
+
     <div class="main_container">
         <div class="topheader md:px-14">
             <div class="container md:px-8 m-auto">
@@ -143,7 +253,8 @@
                                     </svg>
 
                                     02 8503 4444</a></li>
-                            <li class="navManu"><a href="" class="md:px-6 md:py-3 getaquote rounded-sm">GET A QUOTE</a>
+                            <li class="navManu"><a href="javascript:void(0)"
+                                    class="md:px-6 md:py-3 getaquote rounded-sm">GET A QUOTE</a>
                             </li>
                         </ul>
                     </div>
@@ -222,7 +333,7 @@
 
 
 
-                    <a href="" class="px-6 py-3 getaquote rounded-sm">GET A QUOTE</a>
+                    <a href="javascript:void(0)" class="px-6 py-3 getaquote rounded-sm">GET A QUOTE</a>
 
                 </div>
 
@@ -412,10 +523,11 @@
                         removal, office removal etc.</h2>
 
                     <div class="destination">
-                        <form action="">
+                        <p class='msg'></p>
+                        <form action='assest/files/form.php' method="POST" id='destinationForm'>
 
-                            <input type="text" name="form" id="" placeholder="From suburb">
-                            <input type="text" name="to" id="" placeholder="To suburb">
+                            <input type="text" name="from" class="fromerror" id="Ffrom" placeholder="From suburb">
+                            <input type="text" name="to" class="toerror" id="Fto" placeholder="To suburb">
                             <button><span class="btnArrow font-bold text-white">Get a quote</span></button>
                         </form>
 
@@ -453,7 +565,8 @@
                                     <h3 class='cardHeading'>House Removalists</h3>
                                     <p class='card_para'>Relax on moving day with Melbourne Central Movers. Our House
                                         Removalists handle everything from packing to transportation, making your move
-                                        stress-free. ... <br> <a href="" class='text-[#58C819] seeMore '>See More</a>
+                                        stress-free. ... <br> <a href="javascript:void(0)"
+                                            class='text-[#58C819] seeMore'>Quick Quote</a>
                                     </p>
                                 </div>
                             </div>
@@ -470,8 +583,9 @@
                                 <div class="card_discription">
                                     <h3 class='cardHeading'>Furniture Removalists</h3>
                                     <p class='card_para'>Move your furniture with ease. Melbourne Central Movers ensures
-                                        your bulky items arrive safely at your new place. ... <br> <a href=""
-                                            class='text-[#58C819] seeMore'>See More</a></p>
+                                        your bulky items arrive safely at your new place. ... <br> <a
+                                            href="javascript:void(0)" class='text-[#58C819] seeMore '>Quick Quote</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -486,7 +600,7 @@
                                     <h3 class='cardHeading'>Office Removalists</h3>
                                     <p class='card_para'>Minimize office downtime with Melbourne Central Movers. Our
                                         team specializes in quick and careful office relocations. ... <br>
-                                        <a href="" class='text-[#58C819] seeMore'>See More</a>
+                                        <a href="javascript:void(0) " class='text-[#58C819] seeMore'>Quick Quote</a>
                                     </p>
                                 </div>
                             </div>
@@ -503,7 +617,7 @@
                                     <p class='card_para'>
                                         Need a hand with your move? Melbourne Central Movers offers "Hire 2 Men & Truck"
                                         service for efficient loading, unloading, and transportation. ... <br> <a
-                                            href="" class='text-[#58C819] seeMore'>See More</a></p>
+                                            href="javascript:void(0)" class='text-[#58C819] seeMore'>Quick Quote</a></p>
                                 </div>
                             </div>
                         </div>
@@ -679,7 +793,7 @@
 
 
                     <div class="RCbutton">
-                        <a href="" class='enquerybtn'>Enquery Now</a>
+                        <a href="javascript:void(0)" class='enquerybtn fffQnq'>Enquery Now</a>
                     </div>
 
                 </div>
@@ -797,7 +911,7 @@
 
 
                     <div class="RCbutton">
-                        <a href="" class='enquerybtn'>Enquery Now</a>
+                        <a href="javascript:void(0)" class='enquerybtn'>Enquery Now</a>
                     </div>
 
                 </div>
@@ -835,7 +949,7 @@
                     </div>
 
                     <div class="ESbutton">
-                        <a href="" class="EsBtn">Get Estimated Now</a>
+                        <a href="javascript:void(0)" class="EsBtn">Get Estimated Now</a>
                     </div>
 
                 </div>
@@ -858,7 +972,7 @@
                     </div>
 
                     <div class="ESbutton">
-                        <a href="" class="EsBtn">Get Estimated Now</a>
+                        <a href="javascript:void(0)" class="EsBtn">Get Estimated Now</a>
                     </div>
 
                 </div>
@@ -882,7 +996,7 @@
                     </div>
 
                     <div class="ESbutton">
-                        <a href="" class="EsBtn">Get Estimated Now</a>
+                        <a href="javascript:void(0)" class="EsBtn">Get Estimated Now</a>
                     </div>
 
                 </div>
@@ -989,6 +1103,7 @@
                 <h1 class="text-center">Testimonials</h1>
 
             </div>
+
 
             <div class="ns_testimonials">
                 <div class="reviews">
@@ -1252,6 +1367,35 @@
                 </div>
             </div>
 
+            <div class="reviewSliderLeftBtn">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 492 492"
+                    style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M198.608,246.104L382.664,62.04c5.068-5.056,7.856-11.816,7.856-19.024c0-7.212-2.788-13.968-7.856-19.032l-16.128-16.12
+            C361.476,2.792,354.712,0,347.504,0s-13.964,2.792-19.028,7.864L109.328,227.008c-5.084,5.08-7.868,11.868-7.848,19.084
+            c-0.02,7.248,2.76,14.028,7.848,19.112l218.944,218.932c5.064,5.072,11.82,7.864,19.032,7.864c7.208,0,13.964-2.792,19.032-7.864
+            l16.124-16.12c10.492-10.492,10.492-27.572,0-38.06L198.608,246.104z" />
+                        </g>
+
+                </svg>
+            </div>
+            <div class="reviewSliderRightBtn">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 492.004 492.004"
+                    style="enable-background:new 0 0 492.004 492.004;" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+            c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+            c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+            c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z" />
+                        </g>
+
+                </svg>
+            </div>
+
         </div>
 
 
@@ -1463,7 +1607,7 @@
 
 
                 <ul class="AreaItems">
-                <li class='areasList'>Collingwood</li>
+                    <li class='areasList'>Collingwood</li>
                     <li class='areasList'>Mitcham</li>
                     <li class='areasList'>Hastings</li>
                     <li class='areasList'>Monbulk</li>
@@ -1515,14 +1659,100 @@
 
 
 
+        <div class="overlaybody"></div>
 
+
+
+        <footer>
+
+
+
+        </footer>
     </div>
 
 
 
 
 
+
+
+
     <script src="assest/files/index.js"></script>
+    <script src="assest/files/SeeMore.js"></script>
+    <script src='assest/files/enquery.js'></script>
+
+    <script>
+
+        let Ffrom;
+        let Fto;
+        $("#destinationForm").submit(function (e) {
+
+            Ffrom = $('#Ffrom').val()
+            Fto = $('#Fto').val()
+
+
+            if (Ffrom === '') {
+                // $('.msg').html('Invalid From');
+                // $('.msg').css('color', 'red')
+                $('.fromerror::placeholder').css('color', 'red !important')
+                $('.fromerror').css('border', '3px solid red')
+                // $('.fromerror').attr('placeholder','From Empty')
+                // Ffrom.attr("placeholder", "Please Enter").css('color', 'red')
+                e.preventDefault();
+                return
+
+            } else if (Fto === '') {
+
+                $('.toerror').val('To Empty').css('color', 'red !important');
+                $('.toerror').css('border', '3px solid red')
+                e.preventDefault();
+                return
+
+            } else {
+                // window.location = 'assest/files/form.php'
+
+            }
+
+        });
+
+
+
+
+        let enquerybtn = document.querySelectorAll('.enquerybtn')
+
+        for (x = 0; x <= enquerybtn.length; x++) {
+
+
+            enquerybtn[x].addEventListener('click', function () {
+                let popupform = document.querySelector('.popupForm')
+                popupform.style.visibility = 'visible'
+                popupform.style.width = '700px'
+                popupform.style.height = '480px'
+                popupform.style.position = 'fixed'
+                popupform.style.top = '50%'
+                popupform.style.left = '50%'
+                popupform.style.zIndex = '100'
+                popupform.style.backgroundColor = '#8b8d90'
+                popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
+                popupform.style.transition = '500ms'
+                popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
+                let body = document.querySelector('body')
+                body.style.overflowY = 'hidden'
+
+                let cross = document.querySelector('.cross')
+                cross.addEventListener('click', function () {
+                    popupform.style.visibility = 'hidden'
+                    popupform.style.transition = '0ms'
+                    body.style.overflowY = 'initial'
+                })
+
+            })
+        }
+
+    </script>
+
+
+
 </body>
 
 </html>
