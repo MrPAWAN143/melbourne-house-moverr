@@ -1,10 +1,14 @@
 .D_top_nav .list:hover a{
-    color: #28A9E0;
+    color: #58C819;
 
 }
 
 .socialMedia a:hover svg{
-    fill: #28A9E0;
+    fill: #58C819;
+    
+}
+.fotsocialmediaIcon a:hover svg{
+    fill: #58C819;
     
 }
 
@@ -33,4 +37,8 @@ color: #58C819;
 .reviewSliderRightBtn:hover svg , .reviewSliderLeftBtn:hover svg{
     fill: rgb(0, 0, 0);
     transition: 500ms;
+}
+
+.fotItem ul li a:hover{
+    color: #58C819;
 }

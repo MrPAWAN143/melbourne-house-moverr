@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>melbourne central movers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assest/files/src/output.css">
     <link rel="stylesheet" href="assest/files/mobile.css">
     <link rel="stylesheet" href="assest/files/tablets.css">
@@ -1400,6 +1403,9 @@
 
 
 
+
+
+
         <div class="container areaLocation">
 
             <div class="expeerienceHeading testimonialsHeading Areaserve">
@@ -1663,25 +1669,65 @@
 
 
 
-        <footer>
-
-
-
-        </footer>
-    </div>
+      
 
 
 
 
 
 
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="assest/files/index.js"></script>
     <script src="assest/files/SeeMore.js"></script>
     <script src='assest/files/enquery.js'></script>
 
     <script>
+
+
+let EsBtn = document.querySelectorAll('.EsBtn')
+for(a=0;a<=EsBtn.length;a++){
+
+
+    let popupform = document.querySelector('.popupForm')
+   
+ 
+    
+    EsBtn[a].addEventListener('click',function(){
+        let popHeading = document.querySelector('.popHeading')
+        let body = document.querySelector('body')
+        let main_container = document.querySelector('.main_container')
+        popHeading.innerHTML = '2 MEN AND A 4.5 TON TRUCK'
+
+        popupform.style.visibility = 'visible'
+        popupform.style.width = '700px'
+        popupform.style.height = 'auto'
+        popupform.style.position = 'fixed'
+        popupform.style.top = '50%'
+        popupform.style.left = '50%'
+        popupform.style.zIndex = '100'
+        popupform.style.backgroundColor = '#8b8d90'
+        popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
+        popupform.style.transition = '500ms'
+        popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
+        body.style.overflowY = 'hidden'
+        main_container.style.filter = 'blur(2px)'
+
+
+        let cross = document.querySelector('.popupForm .cross')
+        cross.addEventListener('click', function () {
+            popupform.style.visibility = 'hidden'
+            popupform.style.transition = '0ms'
+            body.style.overflowY = 'initial'
+            main_container.style.filter = 'blur(0px)'
+        })
+
+
+    })
+   
+    
+}
+
+
 
         let Ffrom;
         let Fto;
@@ -1703,7 +1749,7 @@
 
             } else if (Fto === '') {
 
-                $('.toerror').val('To Empty').css('color', 'red !important');
+                $('.toerror').css('color', 'red !important');
                 $('.toerror').css('border', '3px solid red')
                 e.preventDefault();
                 return
@@ -1722,32 +1768,75 @@
 
         for (x = 0; x <= enquerybtn.length; x++) {
 
+            let main_container = document.querySelector('.main_container')
 
-            enquerybtn[x].addEventListener('click', function () {
+
+
+
+
+
+
+            enquerybtn[x].addEventListener('click', function (e) {
+
+               
                 let popupform = document.querySelector('.popupForm')
-                popupform.style.visibility = 'visible'
-                popupform.style.width = '700px'
-                popupform.style.height = '480px'
-                popupform.style.position = 'fixed'
-                popupform.style.top = '50%'
-                popupform.style.left = '50%'
-                popupform.style.zIndex = '100'
-                popupform.style.backgroundColor = '#8b8d90'
-                popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
-                popupform.style.transition = '500ms'
-                popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
-                let body = document.querySelector('body')
-                body.style.overflowY = 'hidden'
+                if (e.screenX <= 480) {
+                    console.log(e);
 
-                let cross = document.querySelector('.cross')
-                cross.addEventListener('click', function () {
-                    popupform.style.visibility = 'hidden'
-                    popupform.style.transition = '0ms'
-                    body.style.overflowY = 'initial'
-                })
+                    popupform.style.visibility = 'visible'
+                    popupform.style.width = '95%'
+                    popupform.style.height = 'auto'
+                    popupform.style.position = 'fixed'
+                    popupform.style.top = '50%'
+                    popupform.style.left = '50%'
+                    popupform.style.zIndex = '100'
+                    popupform.style.backgroundColor = '#8b8d90'
+                    popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
+                    popupform.style.transition = '500ms'
+                    popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
+                    let body = document.querySelector('body')
+                    body.style.overflowY = 'hidden'
+                    main_container.style.filter = 'blur(2px)'
+
+                    let cross = document.querySelector('.cross')
+                    cross.addEventListener('click', function () {
+                        popupform.style.visibility = 'hidden'
+                        popupform.style.transition = '0ms'
+                        body.style.overflowY = 'initial'
+                        main_container.style.filter = 'blur(0px)'
+                    })
+                }else{
+                    console.log(e.screenX);
+                    popupform.style.visibility = 'visible'
+                    popupform.style.width = '700px'
+                    popupform.style.height = 'auto'
+                    popupform.style.position = 'fixed'
+                    popupform.style.top = '50%'
+                    popupform.style.left = '50%'
+                    popupform.style.zIndex = '100'
+                    popupform.style.backgroundColor = '#8b8d90'
+                    popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
+                    popupform.style.transition = '500ms'
+                    popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
+                    let body = document.querySelector('body')
+                    body.style.overflowY = 'hidden'
+                    main_container.style.filter = 'blur(2px)'
+
+                    let cross = document.querySelector('.cross')
+                    cross.addEventListener('click', function () {
+                        popupform.style.visibility = 'hidden'
+                        popupform.style.transition = '0ms'
+                        body.style.overflowY = 'initial'
+                        main_container.style.filter = 'blur(0px)'
+                    })
+                }
 
             })
         }
+
+
+
+
 
     </script>
 

@@ -70,9 +70,11 @@ toggal.addEventListener('click', function () {
 })
 
 
-try {
+
    let getaquote = document.querySelectorAll('.getaquote')
    for (i = 0; i <= getaquote.length; i++) {
+
+      let main_container = document.querySelector('.main_container')
 
       getaquote[i].addEventListener('click', function (e) {
 
@@ -85,7 +87,7 @@ try {
 
             popupform.style.visibility = 'visible'
             popupform.style.width = '700px'
-            popupform.style.height = '480px'
+            popupform.style.height = 'auto'
             popupform.style.position = 'fixed'
             popupform.style.top = '50%'
             popupform.style.left = '50%'
@@ -96,12 +98,16 @@ try {
             popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
             let body = document.querySelector('body')
             body.style.overflowY = 'hidden'
+            main_container.style.filter = 'blur(2px)'
+            // body.style.filter = 'blur(1px)'
 
             let cross = document.querySelector('.cross')
             cross.addEventListener('click', function () {
                popupform.style.visibility = 'hidden'
                popupform.style.transition = '0ms'
                body.style.overflowY = 'initial'
+               main_container.style.filter = 'blur(0)'
+               
             })
 
 
@@ -111,7 +117,7 @@ try {
          } else if (e.clientX > 300 && e.clientX < 850) {
             popupform.style.visibility = 'visible'
             popupform.style.width = '90%'
-            popupform.style.height = '450px'
+            popupform.style.height = 'auto'
             popupform.style.position = 'fixed'
             popupform.style.top = '50%'
             popupform.style.left = '50%'
@@ -123,13 +129,14 @@ try {
 
             let body = document.querySelector('body')
             body.style.overflowY = 'hidden'
-
+            main_container.style.filter = 'blur(2px)'
 
             let cross = document.querySelector('.cross')
             cross.addEventListener('click', function () {
                popupform.style.visibility = 'hidden'
                popupform.style.transition = '0ms'
                body.style.overflowY = 'initial'
+               main_container.style.filter = 'blur(0px)'
             })
 
 
@@ -150,9 +157,6 @@ try {
 
 
    }
-} catch (error) {
-   console.log(error)
-}
 
 
 
