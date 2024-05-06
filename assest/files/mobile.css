@@ -1189,7 +1189,7 @@
 
     }
 
-    .ns_testimonials {
+    /* .ns_testimonials {
         width: 90%;
         height: 100%;
         margin: auto;
@@ -1200,7 +1200,53 @@
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
         padding: 20px 40px !important;
+    } */
+
+
+
+    .slick-track{
+        /* padding: 0px 40px; */
+        display: flex;
+        gap: 20px !important;
+        /* justify-content: start; */
+
+
+
     }
+
+    .slick-list.draggable{
+        width: 95%;
+      
+        
+    }
+    .slick-next:before, .slick-prev:before {
+        font-size: 40px;
+        color: black;
+    }
+    .slick-next:before, .slick-prev:before{
+        width: 40px !important;
+        height: 40px !important;
+
+    }
+
+    /* .slick-prev{
+        width: 30px;
+        height: 50px;
+        background-color: #000000;
+        z-index: 1;
+        left: -20px;
+    }
+    .slick-next{
+        width: 30px;
+        height: 50px;
+        background-color: #000000;
+        z-index: 1;
+        right: 8px;
+    } */
+
+
+
+
 
     .reviews:nth-child(:last-child){
         margin-right: 0px;
@@ -1216,16 +1262,15 @@
 
     .reviews {
         flex: none;
-        width: 330px;
-        height: 280px;
-        scroll-snap-align: start;
+        height:250px;
+        /* scroll-snap-align: start; */
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -10px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         ;
     }
 
     .profile {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         border: 1px solid #58C819;
         border-radius: 50%;
         overflow: hidden;
@@ -1245,10 +1290,11 @@
     }
 
     .profileMain {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 30px 30px 15px 20px;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        margin: 20px 0px 0px 0px;
+        padding: 0px 20px 0px 20px;
 
     }
 
@@ -1277,6 +1323,7 @@
         align-items: center;
         width: 100px;
         height: 20px;
+        margin: 3px 0px 3px 40px;
         gap: 5px;
     }
     .laststar{
@@ -1288,12 +1335,12 @@
     }
 
     .Reviewcontent {
-        padding: 0px 30px 40px 30px;
+        padding: 0px 20px 0px 20px;
 
     }
 
     .Reviewcontent {
-        font-size: 14px;
+        font-size: 11px;
     }
 
 

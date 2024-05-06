@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>melbourne central movers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -1369,7 +1370,7 @@
 
                 </div>
             </div>
-
+            <!-- 
             <div class="reviewSliderLeftBtn">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 492 492"
@@ -1397,7 +1398,7 @@
                         </g>
 
                 </svg>
-            </div>
+            </div> -->
 
         </div>
 
@@ -1805,6 +1806,35 @@
     <script>
 
 
+        $(".ns_testimonials").slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            responsive: [
+                {
+                    breakpoint: 868,
+                    settings: {
+                        autoplay: true,
+                        slidesToShow: 2,
+                        autoplaySpeed: 1500,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        autoplay: true,
+                        slidesToShow: 1,
+                        autoplaySpeed: 1500,
+                    }
+                }
+            ]
+
+        })
+
 
 
         let Ffrom;
@@ -1856,7 +1886,7 @@
 
             enquerybtn[x].addEventListener('click', function (e) {
 
-               
+
                 let popupform = document.querySelector('.popupForm')
                 if (e.screenX <= 480) {
                     console.log(e);
@@ -1883,7 +1913,7 @@
                         body.style.overflowY = 'initial'
                         main_container.style.filter = 'blur(0px)'
                     })
-                }else{
+                } else {
                     console.log(e.screenX);
                     popupform.style.visibility = 'visible'
                     popupform.style.width = '700px'
