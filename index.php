@@ -206,7 +206,7 @@
                             <li class="navManu"><a href="" class="md:px-3 md:py-3">INTERSTATE</a></li>
                             <li class="navManu"><a href="" class="md:px-3 md:py-3">BUSINESS</a></li>
                             <li class="navManu"><a href="" class="md:px-3 md:py-3">STORAGE</a></li>
-                            <li class="navManu"><a href="tel:02 8503 4444" class="flex acall md:px-3 md:py-3">
+                            <li class="navManu"><a href="tel:1300163694" class="flex acall md:px-3 md:py-3 font-bold hover:font-extrabold hover:scale-105 transition ">
 
                                     <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                                     <svg class="herocall" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -256,9 +256,9 @@
                                         <g></g>
                                     </svg>
 
-                                    02 8503 4444</a></li>
+                                    1300163694</a></li>
                             <li class="navManu"><a href="javascript:void(0)"
-                                    class="md:px-6 md:py-3 getaquote rounded-sm">GET A QUOTE</a>
+                                    class="md:px-6 md:py-3 getaquote ">GET A QUOTE</a>
                             </li>
                         </ul>
                     </div>
@@ -516,7 +516,7 @@
 
         </div>
 
-        <div class="container md:px-8 m-auto textonImg">
+        <div class="container md:px-8 m-auto textonImg ">
             <div class="sub_container">
 
 
@@ -545,6 +545,377 @@
 
             </div>
         </div>
+
+
+
+
+
+
+        <div class="container requestAFreeQuote fristForm">
+            <div class="ns_requestAFreeQuote">
+                <div class="RequestItems">
+
+                    <h3> HIRE PROFESSIONAL REMOVALISTS</h3>
+                    <p>Melbourne Central Movers Is The Best Moving Company In Town. We Have Years Of Experience, And
+                        We're Fully Insured So You Can Relax Knowing Your Belongings Are In Safe Hands.</p>
+
+                    <div class="ReqEnq">
+
+                        <a href="mailto:-info@melbournecentralmovers.com.au">info@melbournecentralmovers.com.au</a>
+
+                        <a href="tel:+1300163694">Call: 1300163694</a>
+
+                    </div>
+
+                    <div class="ReqCallBtn">
+                        <a href="tel:+1300163694" class="EsBtn">Click To Call Now</a>
+                    </div>
+
+
+                </div>
+
+
+                <div class="RequestItems ReqForm">
+
+                    <form action="" method="">
+
+                        <h3>Request A FREE Quote Now</h3>
+
+
+                        <div class="inputs">
+                            <div class="label">
+                                <label for="fullname">Full Name</label>
+                                <input type="text" name="name" id="fullname">
+                            </div>
+                            <div class="label">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" name="phone" id="phone">
+                            </div>
+
+                        </div>
+
+                        <div class="inputs">
+                            <div class="label">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="label">
+                                <label for="date">Date</label>
+                                <input type="date" name="date" id="date">
+                            </div>
+
+                        </div>
+
+                        <div class="inputs">
+                            <div class="label">
+                                <label for="movingfrom">Moving from?</label>
+                                <input type="text" name="movingfrom" id="movingfrom">
+                            </div>
+                            <div class="label">
+                                <label for="movingto">Moving to?</label>
+                                <input type="text" name="movingTo" id="movingto">
+                            </div>
+
+                        </div>
+                        <div class="inputs">
+                            <div class="label">
+                                <label for="message">Your Message</label>
+                                <textarea name="message" id="message"></textarea>
+                            </div>
+
+
+                        </div>
+                        <div class="inputs">
+
+                            <button type="submit">Submit</button>
+
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="container testimonials">
+            <div class="expeerienceHeading testimonialsHeading">
+                <h1 class="text-center">Testimonials</h1>
+
+            </div>
+
+
+            <div class="ns_testimonials">
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://img.freepik.com/premium-photo/portrait-happy-young-casual-man-standing_171337-29744.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Pawan kumar</span>
+                                <a href="" class='Revemail'>pkumarrana143@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-half-o checked"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>Melbourne Central movers are great! They are reliable and trustworthy. We had a large
+                            furniture order which
+                            they took care of in a timely manner. I would highly recommend their services to anyone
+                            wanting to have their furniture taken away and stored.</p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://image.shutterstock.com/image-photo/smiling-young-middle-eastern-man-260nw-2063524544.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Annie McAuley</span>
+                                <a href="" class='Revemail'>anniemcAuley@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <!-- <i class="fa fa-star-half-o checked"></i> -->
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>Hi, I am a customer of Melbourne Central Movers and I am very satisfied with their service.
+                            The company is cost-effective and reliable.
+                            They are always on time and willing to help with any task. I would highly recommend them to
+                            anyone looking for a removalsist in Melbourne.</p>
+                    </div>
+                </div>
+
+
+
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Chris porter</span>
+                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-o laststar"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>I had to move some furniture from one house to another across town. I called these guys up,
+                            just trying out a new company, and they were amazing. I will definitely recommend their
+                            services to anyone who needs a
+                            professional moving company.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Chris porter</span>
+                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-o laststar"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>I had to move some furniture from one house to another across town. I called these guys up,
+                            just trying out a new company, and they were amazing. I will definitely recommend their
+                            services to anyone who needs a
+                            professional moving company.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Chris porter</span>
+                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-o laststar"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>I had to move some furniture from one house to another across town. I called these guys up,
+                            just trying out a new company, and they were amazing. I will definitely recommend their
+                            services to anyone who needs a
+                            professional moving company.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Chris porter</span>
+                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-o laststar"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>I had to move some furniture from one house to another across town. I called these guys up,
+                            just trying out a new company, and they were amazing. I will definitely recommend their
+                            services to anyone who needs a
+                            professional moving company.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div class="profileMain">
+                        <div class='ppPd'>
+                            <div class="profile">
+                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+                                    alt="">
+                            </div>
+                            <div class="profileDetails">
+                                <span class='reviewHolder'>Chris porter</span>
+                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="star">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-o laststar"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="Reviewcontent">
+                        <p>I had to move some furniture from one house to another across town. I called these guys up,
+                            just trying out a new company, and they were amazing. I will definitely recommend their
+                            services to anyone who needs a
+                            professional moving company.</p>
+                    </div>
+
+                </div>
+            </div>
+           
+
+        </div>
+
 
 
 
@@ -953,7 +1324,7 @@
                     </div>
 
                     <div class="ESbutton">
-                        <a href="javascript:void(0)" class="EsBtn">Get Estimated Now</a>
+                        <a href="javascript:void(0)" class="EsBtn etbt">Get Estimated Now</a>
                     </div>
 
                 </div>
@@ -976,7 +1347,7 @@
                     </div>
 
                     <div class="ESbutton">
-                        <a href="javascript:void(0)" class="EsBtn">Get Estimated Now</a>
+                        <a href="javascript:void(0)" class="EsBtn etbt">Get Estimated Now</a>
                     </div>
 
                 </div>
@@ -1000,7 +1371,7 @@
                     </div>
 
                     <div class="ESbutton">
-                        <a href="javascript:void(0)" class="EsBtn">Get Estimated Now</a>
+                        <a href="javascript:void(0)" class="EsBtn etbt">Get Estimated Now</a>
                     </div>
 
                 </div>
@@ -1028,7 +1399,7 @@
                     </div>
 
                     <div class="ReqCallBtn">
-                        <a href="" class="EsBtn">Click To Call Now</a>
+                        <a href="tel:" class="EsBtn">Click To Call Now</a>
                     </div>
 
 
@@ -1101,306 +1472,6 @@
         </div>
 
 
-
-        <div class="container testimonials">
-            <div class="expeerienceHeading testimonialsHeading">
-                <h1 class="text-center">Testimonials</h1>
-
-            </div>
-
-
-            <div class="ns_testimonials">
-                <div class="reviews">
-                    <div class="profileMain">
-                        <div class='ppPd'>
-                            <div class="profile">
-                                <img src="https://img.freepik.com/premium-photo/portrait-happy-young-casual-man-standing_171337-29744.jpg"
-                                    alt="">
-                            </div>
-                            <div class="profileDetails">
-                                <span class='reviewHolder'>Pawan kumar</span>
-                                <a href="" class='Revemail'>pkumarrana143@gmail.com</a>
-                            </div>
-                        </div>
-
-                        <div class="star">
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star-half-o checked"></i>
-
-                        </div>
-
-
-
-                    </div>
-
-
-                    <div class="Reviewcontent">
-                        <p>Melbourne Central movers are great! They are reliable and trustworthy. We had a large
-                            furniture order which
-                            they took care of in a timely manner. I would highly recommend their services to anyone
-                            wanting to have their furniture taken away and stored.</p>
-                    </div>
-
-                </div>
-
-
-
-                <div class="reviews">
-                    <div class="profileMain">
-                        <div class='ppPd'>
-                            <div class="profile">
-                                <img src="https://image.shutterstock.com/image-photo/smiling-young-middle-eastern-man-260nw-2063524544.jpg"
-                                    alt="">
-                            </div>
-                            <div class="profileDetails">
-                                <span class='reviewHolder'>Annie McAuley</span>
-                                <a href="" class='Revemail'>anniemcAuley@gmail.com</a>
-                            </div>
-                        </div>
-
-                        <div class="star">
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <!-- <i class="fa fa-star-half-o checked"></i> -->
-
-                        </div>
-
-
-
-                    </div>
-
-
-                    <div class="Reviewcontent">
-                        <p>Hi, I am a customer of Melbourne Central Movers and I am very satisfied with their service.
-                            The company is cost-effective and reliable.
-                            They are always on time and willing to help with any task. I would highly recommend them to
-                            anyone looking for a removalsist in Melbourne.</p>
-                    </div>
-                </div>
-
-
-
-                <div class="reviews">
-                    <div class="profileMain">
-                        <div class='ppPd'>
-                            <div class="profile">
-                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
-                                    alt="">
-                            </div>
-                            <div class="profileDetails">
-                                <span class='reviewHolder'>Chris porter</span>
-                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
-                            </div>
-                        </div>
-
-                        <div class="star">
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star-o laststar"></i>
-
-                        </div>
-
-
-
-                    </div>
-
-
-                    <div class="Reviewcontent">
-                        <p>I had to move some furniture from one house to another across town. I called these guys up,
-                            just trying out a new company, and they were amazing. I will definitely recommend their
-                            services to anyone who needs a
-                            professional moving company.</p>
-                    </div>
-
-                </div>
-
-
-                <div class="reviews">
-                    <div class="profileMain">
-                        <div class='ppPd'>
-                            <div class="profile">
-                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
-                                    alt="">
-                            </div>
-                            <div class="profileDetails">
-                                <span class='reviewHolder'>Chris porter</span>
-                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
-                            </div>
-                        </div>
-
-                        <div class="star">
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star-o laststar"></i>
-
-                        </div>
-
-
-
-                    </div>
-
-
-                    <div class="Reviewcontent">
-                        <p>I had to move some furniture from one house to another across town. I called these guys up,
-                            just trying out a new company, and they were amazing. I will definitely recommend their
-                            services to anyone who needs a
-                            professional moving company.</p>
-                    </div>
-
-                </div>
-
-
-                <div class="reviews">
-                    <div class="profileMain">
-                        <div class='ppPd'>
-                            <div class="profile">
-                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
-                                    alt="">
-                            </div>
-                            <div class="profileDetails">
-                                <span class='reviewHolder'>Chris porter</span>
-                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
-                            </div>
-                        </div>
-
-                        <div class="star">
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star-o laststar"></i>
-
-                        </div>
-
-
-
-                    </div>
-
-
-                    <div class="Reviewcontent">
-                        <p>I had to move some furniture from one house to another across town. I called these guys up,
-                            just trying out a new company, and they were amazing. I will definitely recommend their
-                            services to anyone who needs a
-                            professional moving company.</p>
-                    </div>
-
-                </div>
-
-
-                <div class="reviews">
-                    <div class="profileMain">
-                        <div class='ppPd'>
-                            <div class="profile">
-                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
-                                    alt="">
-                            </div>
-                            <div class="profileDetails">
-                                <span class='reviewHolder'>Chris porter</span>
-                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
-                            </div>
-                        </div>
-
-                        <div class="star">
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star-o laststar"></i>
-
-                        </div>
-
-
-
-                    </div>
-
-
-                    <div class="Reviewcontent">
-                        <p>I had to move some furniture from one house to another across town. I called these guys up,
-                            just trying out a new company, and they were amazing. I will definitely recommend their
-                            services to anyone who needs a
-                            professional moving company.</p>
-                    </div>
-
-                </div>
-
-
-                <div class="reviews">
-                    <div class="profileMain">
-                        <div class='ppPd'>
-                            <div class="profile">
-                                <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
-                                    alt="">
-                            </div>
-                            <div class="profileDetails">
-                                <span class='reviewHolder'>Chris porter</span>
-                                <a href="" class='Revemail'>chrisporter@gmail.com</a>
-                            </div>
-                        </div>
-
-                        <div class="star">
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star checked"></i>
-                            <i class="fa fa-star-o laststar"></i>
-
-                        </div>
-
-
-
-                    </div>
-
-
-                    <div class="Reviewcontent">
-                        <p>I had to move some furniture from one house to another across town. I called these guys up,
-                            just trying out a new company, and they were amazing. I will definitely recommend their
-                            services to anyone who needs a
-                            professional moving company.</p>
-                    </div>
-
-                </div>
-            </div>
-            <!-- 
-            <div class="reviewSliderLeftBtn">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 492 492"
-                    style="enable-background:new 0 0 492 492;" xml:space="preserve">
-                    <g>
-                        <g>
-                            <path d="M198.608,246.104L382.664,62.04c5.068-5.056,7.856-11.816,7.856-19.024c0-7.212-2.788-13.968-7.856-19.032l-16.128-16.12
-            C361.476,2.792,354.712,0,347.504,0s-13.964,2.792-19.028,7.864L109.328,227.008c-5.084,5.08-7.868,11.868-7.848,19.084
-            c-0.02,7.248,2.76,14.028,7.848,19.112l218.944,218.932c5.064,5.072,11.82,7.864,19.032,7.864c7.208,0,13.964-2.792,19.032-7.864
-            l16.124-16.12c10.492-10.492,10.492-27.572,0-38.06L198.608,246.104z" />
-                        </g>
-
-                </svg>
-            </div>
-            <div class="reviewSliderRightBtn">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 492.004 492.004"
-                    style="enable-background:new 0 0 492.004 492.004;" xml:space="preserve">
-                    <g>
-                        <g>
-                            <path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
-            c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
-            c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
-            c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z" />
-                        </g>
-
-                </svg>
-            </div> -->
-
-        </div>
 
 
 
@@ -1797,11 +1868,79 @@
 
 
 
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="assest/files/index.js"></script>
     <script src="assest/files/SeeMore.js"></script>
-    <script src='assest/files/enquery.js'></script>
+
+
+
+    <script>
+        let esbt = document.querySelectorAll('.etbt')
+
+
+
+        for (f = 0; f <= esbt.length; f++) {
+            let popupform = document.querySelector('.popupForm')
+            let main_container = document.querySelector('.main_container')
+            let heading =document.querySelector('.popHeading').innerHTML = 'Get Estimated Now'
+
+
+            
+            esbt[f].addEventListener('click', function (e) {
+                console.log(e.view)
+          
+                if (e.view.innerWidth <= 500) {
+                    popupform.style.visibility = 'visible'
+                    popupform.style.width = '95%'
+                    popupform.style.height = 'auto'
+                    popupform.style.position = 'fixed'
+                    popupform.style.top = '50%'
+                    popupform.style.left = '50%'
+                    popupform.style.zIndex = '100'
+                    popupform.style.backgroundColor = '#8b8d90'
+                    popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
+                    popupform.style.transition = '500ms'
+                    popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
+                    let body = document.querySelector('body')
+                    body.style.overflowY = 'hidden'
+                    main_container.style.filter = 'blur(2px)'
+
+                    let cross = document.querySelector('.cross')
+                    cross.addEventListener('click', function () {
+                        popupform.style.visibility = 'hidden'
+                        popupform.style.transition = '0ms'
+                        body.style.overflowY = 'initial'
+                        main_container.style.filter = 'blur(0px)'
+                    })
+                } else {
+                    popupform.style.visibility = 'visible'
+                    popupform.style.width = '700px'
+                    popupform.style.height = 'auto'
+                    popupform.style.position = 'fixed'
+                    popupform.style.top = '50%'
+                    popupform.style.left = '50%'
+                    popupform.style.zIndex = '100'
+                    popupform.style.backgroundColor = '#8b8d90'
+                    popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
+                    popupform.style.transition = '500ms'
+                    popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
+                    let body = document.querySelector('body')
+                    body.style.overflowY = 'hidden'
+                    main_container.style.filter = 'blur(2px)'
+
+                    let cross = document.querySelector('.cross')
+                    cross.addEventListener('click', function () {
+                        popupform.style.visibility = 'hidden'
+                        popupform.style.transition = '0ms'
+                        body.style.overflowY = 'initial'
+                        main_container.style.filter = 'blur(0px)'
+                    })
+                }
+            })
+        }
+    </script>
+
+
 
     <script>
 
@@ -1877,6 +2016,8 @@
         for (x = 0; x <= enquerybtn.length; x++) {
 
             let main_container = document.querySelector('.main_container')
+            let heading = document.querySelector('.popHeading').innerHTML = 'Get a Quick Quote'
+
 
 
 
@@ -1888,7 +2029,7 @@
 
 
                 let popupform = document.querySelector('.popupForm')
-                if (e.screenX <= 480) {
+                if (e.view.innerWidth <= 500) {
                     console.log(e);
 
                     popupform.style.visibility = 'visible'

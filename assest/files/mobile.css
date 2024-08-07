@@ -407,7 +407,7 @@
         text-align: black;
         font-weight: 700;
         padding: 20px 10px;
-        background-color: #5AAAA0;
+        background-color: #272727;
         color: white;
     }
 
@@ -552,7 +552,7 @@
         color: white;
         display: inline-block;
         background-color: #58C819;
-        border-radius: 2px;
+        /* border-radius: 2px; */
         position: absolute;
         bottom: 35px;
         transform: translateX(-50%);
@@ -588,7 +588,7 @@
     .Ritems {
         flex: 1;
         height: 100%;
-        background-color: #1dbfbf;
+        background-color: #272525;
         display: flex;
         align-items: center;
         padding: 10px 10px;
@@ -723,7 +723,7 @@
         display: inline-block;
         margin: auto;
         align-items: center;
-        border-radius: 4px;
+        /* border-radius: 4px; */
         font-size: 20px ;
     }
 
@@ -752,7 +752,7 @@
         font-weight: 600;
         text-align: center;
         margin: auto;
-        background-color: #5AAAA0;
+        background-color: #272727;
         padding: 20px 10px;
         color: white;
        
@@ -1561,4 +1561,14 @@
         color: #58C819;
     }
 
+
+
+
+
+    /* Frist Form css  */
+
+   .requestAFreeQuote.fristForm{
+    margin-top: -50px !important;
+    margin-bottom: 100px;
+}
 }

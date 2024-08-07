@@ -14,7 +14,7 @@
         z-index: 100;
         transform: translateX(-50%)translateY(-50%);
         transition: 500ms ease-in-out;
-        padding: 30px 20px;
+        padding: 20px 20px;
         border: 2px solid #58C819;
         background-color: #53565a;
 
@@ -55,7 +55,7 @@
         z-index: 100;
         transform: translateX(-50%)translateY(-50%);
         transition: 500ms ease-in-out;
-        padding: 10px 20px;
+        padding: 20px 20px;
         border: 2px solid #58C819;
 
 
@@ -74,20 +74,21 @@
         font-size: 35px;
         text-align: center;
         color: white;
+        margin-bottom: 20px;
     }
 
     .cross {
         position: absolute;
         color: white;
-        top: -10px !important;
-        right: -10px;
+        top: -8px !important;
+        right: -8px;
         font-size: 10px;
         background-color: red;
         display: block;
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
         text-align: center;
-        line-height: 20px;
+        line-height: 15px;
         cursor: pointer;
         /* border-radius: 5px; */
     }
@@ -317,7 +318,7 @@
 
     .destination {
         width: 650px;
-        height: 70px;
+        height: 80px;
         background-color: white;
         border-radius: 5px;
         margin-top: 80px;
@@ -331,33 +332,42 @@
         height: 100%;
         padding: 0px 10px;
         border-radius: 4px;
+        background-color: #58C819;
 
 
     }
 
     .destination form input {
         flex: 1;
-        height: 50px;
-        border: 2px solid rgb(176, 172, 172);
+        height:55px;
+        border: 2px solid #000000;
         padding: 0px 10px;
         border-radius: 4px;
-        color: rgb(79, 76, 76);
+        color: rgb(255, 255, 255);
+        background-color: #58C819;
+        outline: none;
+
         font-size: 18px;
 
 
+    }
+    .destination form input:focus{
+        border: 2px solid #ffffff;
     }
 
     .destination form button {
         flex: 1;
-        background-color: #58C819;
-        height: 50px;
+        background-color: #000000;
+        height: 55px;
         border-radius: 4px;
+
 
     }
 
     .destination form input::placeholder {
-        color: rgb(124, 124, 124);
+        color: rgb(255, 255, 255);
         font-size: 18px;
+        font-weight: 400;
     }
 
 
@@ -382,7 +392,7 @@
     .expeerienceHeading {
         width: 100%;
         margin: auto;
-        background-color: #5AAAA0;
+        background-color: #272727;
         color: white;
         padding: 20px 0px;
     }
@@ -427,7 +437,7 @@
     }
 
     .ourexpertise {
-        margin-top: -50px;
+        margin-top: 50px;
     }
 
     .card_overlay {
@@ -534,7 +544,7 @@
         color: white;
         display: inline-block;
         background-color: #58C819;
-        border-radius: 2px;
+        /* border-radius: 2px; */
         position: absolute;
         bottom: 30px;
         transform: translateX(-50%);
@@ -578,7 +588,7 @@
     .Ritems {
         flex: 1;
         height: 100%;
-        background-color: #1dbfbf;
+        background-color: #1F2C25;
         border-radius: 70px 0px 80px 40px;
         display: flex;
         align-items: center;
@@ -681,7 +691,7 @@
         background-color: #58C819;
         color: white;
         font-weight: 600;
-        border-radius: 2px;
+        /* border-radius: 2px; */
     }
 
 
@@ -711,7 +721,7 @@
         font-weight: 600;
         text-align: center;
         margin: auto;
-        background-color: #5AAAA0;
+        background-color: #272727;
         padding: 20px 0px;
     }
 
@@ -854,7 +864,7 @@
 
 
     .commercial {
-        margin-top: 0px !important;
+        margin-top: -50px !important;
     }
 
 
@@ -1190,6 +1200,7 @@
         margin: auto;
         display: block;
         font-size: 20px;
+        margin-top: 10px;
     }
 
     .inputs input[type="date"]:focus::-webkit-calendar-picker-indicator {
@@ -1246,7 +1257,7 @@
 
     .slick-list.draggable{
         width: 96%;
-        height: 300px;
+        /* height: 300px; */
         margin: auto;
         display: flex;
         align-items: center;
@@ -1412,7 +1423,8 @@
         width: 100%;
         height: auto;
         /* border: 1px solid red; */
-        margin-top: 50px !important;
+        /* margin-top: 50px !important; */
+        padding-top: 30px;
         margin: auto;
         background-color: #53565a;
 
@@ -1519,6 +1531,9 @@
         flex: 1;
         height: 100%;
         padding: 40px;
+    }
+    .fotItem:not(:last-child){
+       
         border-right: 2px solid white;
 
 
@@ -1568,8 +1583,8 @@
 
     .fotItem ul{
         width: 270px;
-        margin: auto;
         margin-top: 20px;
+        margin-left: 30px;
 
     }
     .fotItem ul li a {
@@ -1586,7 +1601,7 @@
         position: absolute;
         bottom: 10px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .policy ul:first-child{
         width: 310px;
@@ -1601,6 +1616,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-left: 20px;
     }
     .policy ul li{
         color: white;
@@ -1609,6 +1625,16 @@
     .policy ul li a{
         padding: 5px 15px;
         color: #58C819;
+    }
+
+
+
+
+    /* Frist Form css  */
+
+   .requestAFreeQuote.fristForm{
+        margin-top: -50px !important;
+        /* margin-bottom: 100px; */
     }
 }
 

@@ -71,92 +71,97 @@ toggal.addEventListener('click', function () {
 
 
 
-   let getaquote = document.querySelectorAll('.getaquote')
-   for (i = 0; i <= getaquote.length; i++) {
+let getaquote = document.querySelectorAll('.getaquote')
+for (i = 0; i <= getaquote.length; i++) {
 
-      let main_container = document.querySelector('.main_container')
+   let main_container = document.querySelector('.main_container')
 
-      getaquote[i].addEventListener('click', function (e) {
+   getaquote[i].addEventListener('click', function (e) {
 
-         let popHeading = document.querySelector('.popHeading')
-        popHeading.innerHTML = 'Request A FREE Quote Now'
-
-
-         let popupform = document.querySelector('.popupForm')
-         if (e.clientX > 850) {
-
-            popupform.style.visibility = 'visible'
-            popupform.style.width = '700px'
-            popupform.style.height = 'auto'
-            popupform.style.position = 'fixed'
-            popupform.style.top = '50%'
-            popupform.style.left = '50%'
-            popupform.style.zIndex = '100'
-            popupform.style.backgroundColor = '#8b8d90'
-            popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
-            popupform.style.transition = '500ms'
-            popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
-            let body = document.querySelector('body')
-            body.style.overflowY = 'hidden'
-            main_container.style.filter = 'blur(2px)'
-            // body.style.filter = 'blur(1px)'
-
-            let cross = document.querySelector('.cross')
-            cross.addEventListener('click', function () {
-               popupform.style.visibility = 'hidden'
-               popupform.style.transition = '0ms'
-               body.style.overflowY = 'initial'
-               main_container.style.filter = 'blur(0)'
-               
-            })
+      let popHeading = document.querySelector('.popHeading')
+      popHeading.innerHTML = 'Request A FREE Quote Now'
 
 
+      let popupform = document.querySelector('.popupForm')
+      if (e.clientX > 850) {
 
+         popupform.style.visibility = 'visible'
+         popupform.style.width = '700px'
+         popupform.style.height = 'auto'
+         popupform.style.position = 'fixed'
+         popupform.style.top = '50%'
+         popupform.style.left = '50%'
+         popupform.style.zIndex = '100'
+         popupform.style.backgroundColor = '#8b8d90'
+         popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
+         popupform.style.transition = '500ms'
+         popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
+         let body = document.querySelector('body')
+         body.style.overflowY = 'hidden'
+         main_container.style.filter = 'blur(2px)'
+         // body.style.filter = 'blur(1px)'
 
+         let cross = document.querySelector('.cross')
+         cross.addEventListener('click', function () {
+            popupform.style.visibility = 'hidden'
+            popupform.style.transition = '0ms'
+            body.style.overflowY = 'initial'
+            main_container.style.filter = 'blur(0)'
 
-         } else if (e.clientX > 300 && e.clientX < 850) {
-            popupform.style.visibility = 'visible'
-            popupform.style.width = '90%'
-            popupform.style.height = 'auto'
-            popupform.style.position = 'fixed'
-            popupform.style.top = '50%'
-            popupform.style.left = '50%'
-            popupform.style.zIndex = '100'
-            popupform.style.backgroundColor = '#8b8d90'
-            popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
-            popupform.style.transition = '500ms'
-            popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
-
-            let body = document.querySelector('body')
-            body.style.overflowY = 'hidden'
-            main_container.style.filter = 'blur(2px)'
-
-            let cross = document.querySelector('.cross')
-            cross.addEventListener('click', function () {
-               popupform.style.visibility = 'hidden'
-               popupform.style.transition = '0ms'
-               body.style.overflowY = 'initial'
-               main_container.style.filter = 'blur(0px)'
-            })
-
-
-         } else {
-
-
-
-         }
+         })
 
 
 
 
 
+      } else if (e.clientX > 300 && e.clientX < 850) {
+         popupform.style.visibility = 'visible'
+         popupform.style.width = '90%'
+         popupform.style.height = 'auto'
+         popupform.style.position = 'fixed'
+         popupform.style.top = '50%'
+         popupform.style.left = '50%'
+         popupform.style.zIndex = '100'
+         popupform.style.backgroundColor = '#8b8d90'
+         popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
+         popupform.style.transition = '500ms'
+         popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
 
-      })
+         let body = document.querySelector('body')
+         body.style.overflowY = 'hidden'
+         main_container.style.filter = 'blur(2px)'
+
+         let cross = document.querySelector('.cross')
+         cross.addEventListener('click', function () {
+            popupform.style.visibility = 'hidden'
+            popupform.style.transition = '0ms'
+            body.style.overflowY = 'initial'
+            main_container.style.filter = 'blur(0px)'
+         })
+
+
+      } else {
+
+
+
+      }
 
 
 
 
-   }
+
+
+   })
+
+
+
+
+}
+
+
+
+
+
 
 
 
