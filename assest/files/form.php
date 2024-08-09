@@ -36,7 +36,7 @@
 
                 <div class="Nsub_container h-100">
                     <div class="logo md:w-[20%] h-auto md:mr-3">
-                        <a href="/" class="cursor-pointer block py-5 my-2"> <img src="mages/logo.webp"
+                        <a href="../../index.php" class="cursor-pointer block py-5 my-2"> <img src="../images/logo.webp"
                                 alt="logo"></a>
                     </div>
 

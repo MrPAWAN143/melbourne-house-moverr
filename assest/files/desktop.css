@@ -15,7 +15,7 @@
         transform: translateX(-50%)translateY(-50%);
         transition: 500ms ease-in-out;
         padding: 20px 20px;
-        border: 2px solid #58C819;
+        /* border: 2px solid #58C819; */
         background-color: #53565a;
 
     }
@@ -56,7 +56,7 @@
         transform: translateX(-50%)translateY(-50%);
         transition: 500ms ease-in-out;
         padding: 20px 20px;
-        border: 2px solid #58C819;
+        /* border: 2px solid #58C819; */
 
 
     }
@@ -151,7 +151,7 @@
     body {
         /* background-color: rgb(147, 147, 170); */
         font-family: "Tilt Neon", sans-serif;
-    
+
     }
 
 
@@ -268,6 +268,11 @@
     .getaquote {
         background-color: #58C819 !important;
         font-size: 15px !important;
+        color: #000000 !important;
+        font-weight: 600;
+        border-radius: 4px;
+
+
 
     }
 
@@ -287,6 +292,7 @@
         top: 150px;
         left: 50%;
         transform: translateX(-50%);
+
 
     }
 
@@ -339,19 +345,19 @@
 
     .destination form input {
         flex: 1;
-        height:55px;
+        height: 55px;
         border: 2px solid #000000;
         padding: 0px 10px;
         border-radius: 4px;
         color: rgb(255, 255, 255);
         background-color: #58C819;
         outline: none;
-
         font-size: 18px;
 
 
     }
-    .destination form input:focus{
+
+    .destination form input:focus {
         border: 2px solid #ffffff;
     }
 
@@ -368,8 +374,13 @@
         color: rgb(255, 255, 255);
         font-size: 18px;
         font-weight: 400;
+        color: #000000;
     }
 
+    .destination form input:focus::placeholder {
+        color: rgb(255, 255, 255);
+
+    }
 
 
     .experience {
@@ -392,9 +403,11 @@
     .expeerienceHeading {
         width: 100%;
         margin: auto;
-        background-color: #272727;
-        color: white;
+        background-color: #58C819;
+        color: rgb(27, 26, 26);
         padding: 20px 0px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
     }
 
     .expeerienceHeading h1 {
@@ -412,9 +425,11 @@
 
     .serviceType {
         width: 100%;
-        padding: 0px 30px;
+        /* padding: 0px 30px; */
 
         margin-top: 70px;
+        background: #252630;
+        padding: 60px 40px;
     }
 
     .maincard {
@@ -428,9 +443,9 @@
         flex: 1;
         height: 400px;
         border-radius: 8px;
-        border: 1px solid #58C819;
+        /* border: 1px solid #58C819; */
         background-color: rgb(237, 237, 237);
-        box-shadow: 1px 1px 15px #58C819;
+        /* box-shadow: 1px 1px 15px #58C819; */
         position: relative;
 
 
@@ -521,14 +536,14 @@
 
     .cardHeading {
         font-size: 23px;
-        color: white;
+        color: #58C819;
         text-align: center;
         font-weight: 600;
     }
 
     .card_para {
         font-size: 14px;
-        color: rgb(213, 213, 213);
+        color: white;
         text-align: center;
         font-weight: 400;
         padding: 0px 8px;
@@ -539,15 +554,20 @@
         text-decoration: none;
         cursor: pointer;
         margin-top: 8px;
-        font-size: 15px;
-        padding: 8px 25px;
-        color: white;
+        width: 180px;
+        font-size: 17px;
+        padding: 10px 10px;
+        color: black;
         display: inline-block;
         background-color: #58C819;
         /* border-radius: 2px; */
         position: absolute;
-        bottom: 30px;
+        bottom: 20px;
         transform: translateX(-50%);
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1pxs;
     }
 
 
@@ -560,22 +580,23 @@
     .RMain {
         width: 100%;
         height: auto;
-        margin-top: 40px;
-        padding: 10px 40px;
-
+        margin-top: 50px;
+        padding: 20px 40px 10px 40px;
+        background-color: #252630;
 
     }
 
     .Rrow {
-        width: 90%;
+        width: 100%;
         margin: auto;
-        height: 190px;
+        height: 220px;
 
         margin-bottom: 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         column-gap: 20px;
+        row-gap: 20px;
         padding: 10px 10px;
 
     }
@@ -588,20 +609,21 @@
     .Ritems {
         flex: 1;
         height: 100%;
-        background-color: #1F2C25;
+        background-color: white;
         border-radius: 70px 0px 80px 40px;
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
-        transition: 500ms;
     }
 
     .Ritems h3 {
         font-size: 22px;
-        color: white;
+        color: #000;
         text-align: center;
-        width: 55%;
+        width: 80%;
+        text-transform: uppercase;
+        font-weight: 700;
 
 
     }
@@ -612,7 +634,7 @@
         height: 20px;
         right: 10px;
         top: 10px;
-        fill: white;
+        fill: black;
 
     }
 
@@ -689,8 +711,12 @@
     .enquerybtn {
         padding: 15px 50px;
         background-color: #58C819;
-        color: white;
+        color: black;
         font-weight: 600;
+        border-radius: 4px;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
         /* border-radius: 2px; */
     }
 
@@ -705,6 +731,8 @@
         margin-top: 80px !important;
         margin: auto;
         /* padding: 0px 40px; */
+
+
     }
 
     .situations {
@@ -713,7 +741,8 @@
     }
 
     .nssituations {
-        padding: 0px 100px;
+        padding: 20px 100px;
+        background-color: #252630;
     }
 
     .STheading {
@@ -721,17 +750,21 @@
         font-weight: 600;
         text-align: center;
         margin: auto;
-        background-color: #272727;
+        background-color: #58C819;
         padding: 20px 0px;
+
+
     }
 
     .STheading h2 {
         font-size: 35px;
-        width: 70%;
+        width: 80%;
         font-weight: 600;
         text-align: center;
         margin: auto;
-        color: white;
+        color: #000;
+        text-transform: uppercase;
+        letter-spacing: 1px;
     }
 
 
@@ -756,7 +789,7 @@
         width: 95%;
         height: 100%;
         margin: auto;
-        background-color: #53565a;
+        background-color: white;
         padding: 15px 20px;
         border-radius: 8px;
     }
@@ -765,7 +798,7 @@
         font-size: 26px;
         font-weight: 600;
         text-align: start;
-        color: white;
+        color: #000;
 
 
     }
@@ -775,7 +808,7 @@
         text-align: start;
         /* padding: 0px 30px; */
         margin-top: 17px;
-        color: white;
+        color: #000000;
     }
 
 
@@ -796,8 +829,9 @@
         text-align: center;
         font-size: 45px;
         margin-top: 40px;
-        color: white;
+        color: #000000;
         font-weight: 700;
+        text-transform: uppercase;
 
     }
 
@@ -830,7 +864,7 @@
 
     .nsWhychoose .list .Unlist {
         font-size: 28px;
-        color: #d9d9d9;
+        color: white;
         font-weight: 700;
 
 
@@ -1013,11 +1047,13 @@
     }
 
     .EsBtn {
-        padding: 10px 25px;
+        padding: 10px 55px;
         font-size: 17px;
         background-color: #58C819;
-        color: white;
+        color: #000000;
         font-weight: 600;
+        border-radius: 4px;
+        text-transform: uppercase;
 
     }
 
@@ -1030,7 +1066,7 @@
         height: auto;
 
         padding: 0px 30px;
-        background-color: #53565a;
+        background-color: #252630;
         margin: auto;
         margin-top: 60px;
     }
@@ -1041,7 +1077,7 @@
         display: flex;
         align-items: center;
         column-gap: 20px;
-        padding: 30px 20px;
+        padding: 60px 20px;
 
     }
 
@@ -1057,15 +1093,16 @@
     }
 
     .ReqForm {
-        background-color: #8b8d904c;
+        background-color: #ffffff;
         padding-bottom: 12px;
-        border: 2px solid #58C819;
+        /* border: 2px solid #58C819; */
+        border-radius: 10px;
 
     }
 
     .RequestItems h3 {
         font-size: 40px;
-        color: white;
+        color: #58C819;
 
     }
 
@@ -1127,6 +1164,7 @@
     .ReqCallBtn {
         margin-top: 30px;
 
+
     }
 
     .ReqCallBtn a {
@@ -1139,7 +1177,7 @@
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: center;
-        color: white;
+        color: #000000;
     }
 
     .inputs {
@@ -1153,40 +1191,52 @@
 
     .inputs .label {
         flex: 1;
+
+    }
+
+    .inputs .label label {
+        color: #000000 !important;
+
     }
 
 
     .inputs input {
-        background-color: transparent;
+        background-color: #cbc3c3;
         padding: 5px 10px;
-        border: 1px solid white;
+        /* border: 1px solid white; */
         outline: none;
         width: 100%;
-        height: 35px;
-        color: rgb(211, 211, 211);
+        height: 40px;
+        color: #ffffff;
         display: block;
+        border-radius: 4px;
+
     }
 
     .inputs textarea {
-        background-color: transparent;
+        background-color: #cbc3c3;
         padding: 5px 10px;
-        border: 1px solid white;
+        /* border: 1px solid white; */
         outline: none;
         width: 100%;
         height: 100px;
         color: rgb(211, 211, 211);
         display: block;
         resize: none;
+        border-radius: 4px;
+
     }
 
     .inputs textarea:focus {
-        background-color: rgba(219, 219, 219, 0.77);
-        color: rgb(70, 70, 70);
+        background-color: #cbc3c3;
+        color: rgb(255, 255, 255);
+        border: 2px solid #000;
     }
 
     .inputs input:focus {
-        background-color: rgba(219, 219, 219, 0.77);
-        color: rgb(70, 70, 70);
+        background-color: #cbc3c3;
+        color: rgb(255, 255, 255);
+        border: 2px solid #000;
     }
 
     .inputs .label label {
@@ -1194,22 +1244,25 @@
     }
 
     .inputs button {
-        padding: 6px 40px;
+        padding: 7px 60px;
         background-color: #58C819;
-        color: white;
+        color: #000;
         margin: auto;
         display: block;
         font-size: 20px;
         margin-top: 10px;
+        border-radius: 5px;
+        font-weight: 600;
+        text-transform: uppercase;
     }
 
     .inputs input[type="date"]:focus::-webkit-calendar-picker-indicator {
-        filter: invert(0);
+        color: white;
 
     }
 
     .inputs input[type="date"]::-webkit-calendar-picker-indicator {
-        filter: invert(1);
+        color: white;
         cursor: pointer;
 
     }
@@ -1246,7 +1299,7 @@
     } */
 
 
-    .slick-track{
+    .slick-track {
         /* padding: 0px 40px; */
         display: flex;
         gap: 25px;
@@ -1255,32 +1308,37 @@
 
     }
 
-    .slick-list.draggable{
+    .slick-list.draggable {
         width: 96%;
         /* height: 300px; */
         margin: auto;
         display: flex;
         align-items: center;
-        
+
     }
-    .slick-next:before, .slick-prev:before {
+
+    .slick-next:before,
+    .slick-prev:before {
         font-size: 40px;
         color: black;
     }
-    .slick-next:before, .slick-prev:before{
+
+    .slick-next:before,
+    .slick-prev:before {
         width: 40px !important;
         height: 40px !important;
 
     }
 
-    .slick-prev{
+    .slick-prev {
         width: 30px;
         height: 50px;
         /* background-color: #000000; */
         z-index: 1;
         left: 0px;
     }
-    .slick-next{
+
+    .slick-next {
         width: 30px;
         height: 50px;
         /* background-color: #000000; */
@@ -1513,38 +1571,41 @@
 
 
 
-    footer{
+    footer {
         width: 100%;
         height: 380px;
         background-color: black;
         position: relative;
     }
 
-    footer .fotContainer{
+    footer .fotContainer {
         height: 100%;
         margin: auto;
         display: flex;
         gap: 20px;
     }
 
-    .fotItem{
+    .fotItem {
         flex: 1;
         height: 100%;
         padding: 40px;
     }
-    .fotItem:not(:last-child){
-       
+
+    .fotItem:not(:last-child) {
+
         border-right: 2px solid white;
 
 
     }
-    .fotlogo{
+
+    .fotlogo {
         width: 100%;
         /* height: 100px; */
         /* border: 1px solid wheat; */
         /* padding:0px 20px; */
     }
-    .fotsocialmediaIcon{
+
+    .fotsocialmediaIcon {
         width: 220px;
         /* height: 100px; */
         display: flex;
@@ -1552,41 +1613,44 @@
         justify-content: space-between;
 
     }
-    .fotsocialmediaIcon a{
+
+    .fotsocialmediaIcon a {
         display: block !important;
         padding: 10px 0px;
     }
-    .fotsocialmediaIcon a svg{
+
+    .fotsocialmediaIcon a svg {
         fill: white;
         width: 30px;
         height: 30px;
-        
+
     }
 
 
-    .fotContainer .fotItem .ReqEnq{
+    .fotContainer .fotItem .ReqEnq {
         /* margin-top: 0px !important; */
-        margin-bottom:30px  !important;
+        margin-bottom: 30px !important;
         margin-left: 10px;
     }
 
-    .fotItem strong{
+    .fotItem strong {
         color: white;
         font-size: 25px;
         text-align: start;
         display: block;
         margin-left: 30px;
-       text-decoration: underline 3px solid #58C819;
-       text-underline-offset: 15px;
+        text-decoration: underline 3px solid #58C819;
+        text-underline-offset: 15px;
     }
 
 
-    .fotItem ul{
+    .fotItem ul {
         width: 270px;
         margin-top: 20px;
         margin-left: 30px;
 
     }
+
     .fotItem ul li a {
         color: white;
         padding: 5px 0px;
@@ -1594,7 +1658,7 @@
     }
 
 
-    .policy{
+    .policy {
         width: 100%;
         height: 60px;
         padding: 0px 10px 0px 30px;
@@ -1603,26 +1667,31 @@
         display: flex;
         justify-content: space-evenly;
     }
-    .policy ul:first-child{
+
+    .policy ul:first-child {
         width: 310px;
         justify-content: center;
         margin-left: 440px;
     }
-    .digitalultras a{
+
+    .digitalultras a {
         padding: 8px !important;
         color: #58C819;
     }
-    .policy ul{
+
+    .policy ul {
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-left: 20px;
     }
-    .policy ul li{
+
+    .policy ul li {
         color: white;
         /* font-size: 20px; */
     }
-    .policy ul li a{
+
+    .policy ul li a {
         padding: 5px 15px;
         color: #58C819;
     }
@@ -1632,9 +1701,94 @@
 
     /* Frist Form css  */
 
-   .requestAFreeQuote.fristForm{
+    .requestAFreeQuote.fristForm {
         margin-top: -50px !important;
         /* margin-bottom: 100px; */
     }
 }
 
+
+
+
+
+
+
+/* review section     */
+
+
+.reviewsection {
+    height: 160px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 70px;
+    margin-top: -90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviewSecItem:first-child {
+    width: 35%;
+    height: 100%;
+}
+
+.reviewSecItem:last-child {
+    width: 65%;
+    height: auto;
+    padding-left: 50px;
+
+}
+
+
+.reviewSecItem:first-child h3 {
+    font-size: 35px;
+    color: rgb(255, 94, 0);
+    line-height: 40px;
+    margin-top: 35px;
+    font-weight: 600;
+
+
+
+}
+
+.reviewSecItem:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.nsRsecItems {
+    flex: 1;
+    column-gap: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+
+.RevSImg {
+    width: 50px;
+    height: 50px;
+    
+}
+.RevSImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.RevRate h3{
+    font-size: 40px;
+    margin-top: 0px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #6c6868;
+
+}
+.RevCount span{
+    font-size: 18px;
+    color: #6c6868;
+}

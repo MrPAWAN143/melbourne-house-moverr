@@ -13,7 +13,7 @@
 }
 
 .card:hover{
-    box-shadow: 1px 1px 30px black;
+    /* box-shadow: 1px 1px 30px black; */
 
 }
 
@@ -22,8 +22,8 @@
 }
 
 .Rrow a .Ritems:hover{
-    background-color: #0f6161;
-transition: 500ms ;
+    background-color: #69eb1e;
+/* transition: 500ms ; */
 }
 
 .ReqEnq a:hover{
@@ -41,4 +41,9 @@ color: #58C819;
 
 .fotItem ul li a:hover{
     color: #58C819;
+}
+
+
+.STnsCard:hover{
+    background-color: #58C819;
 }

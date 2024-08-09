@@ -258,7 +258,7 @@
 
                                     1300163694</a></li>
                             <li class="navManu"><a href="javascript:void(0)"
-                                    class="md:px-6 md:py-3 getaquote ">GET A QUOTE</a>
+                                    class="md:px-7 md:py-4 getaquote ">GET A QUOTE</a>
                             </li>
                         </ul>
                     </div>
@@ -532,7 +532,7 @@
 
                             <input type="text" name="from" class="fromerror" id="Ffrom" placeholder="From suburb">
                             <input type="text" name="to" class="toerror" id="Fto" placeholder="To suburb">
-                            <button><span class="btnArrow font-bold text-white">Get a quote</span></button>
+                            <button><span class="btnArrow font-bold text-white">GET A QUOTE</span></button>
                         </form>
 
                     </div>
@@ -548,6 +548,55 @@
 
 
 
+
+        <div class="container reviewsection">
+
+        <div class="reviewSecItem">
+            <h3>Top rated NYC movers across ALL review sites</h3>
+        </div>
+        <div class="reviewSecItem">
+            <div class="nsRsecItems">
+                <div class="RevSImg"><img src="assest/icons/Google_Icons-09-512.webp" alt="google"></div>
+                <div class="RevSContent">
+                    <div class="RevRate">
+                        <h3>4.5/5</h3>
+                    </div>
+                    <div class="RevCount"><span>182 reviews
+                    </span></div>
+                </div>
+            </div>
+            <div class="nsRsecItems">
+            <div class="RevSImg"><img src="assest/icons/Yelp-Logo.png" alt="google"></div>
+                <div class="RevSContent">
+                    <div class="RevRate">
+                        <h3>4.4/5</h3>
+                    </div>
+                    <div class="RevCount"><span>27 reviews
+                    </span></div>
+                </div>
+            </div>
+            <div class="nsRsecItems">
+            <div class="RevSImg"><img src="assest/icons/Trustpilot-Symbol.png" alt="google"></div>
+                <div class="RevSContent">
+                    <div class="RevRate">
+                        <h3>4.9/5</h3>
+                    </div>
+                    <div class="RevCount"><span>387 reviews
+                    </span></div>
+                </div>
+            </div>
+            <div class="nsRsecItems">
+            <div class="RevSImg"><img src="assest/icons/thumbtack-logo-png_seeklogo-527757.png" alt="google"></div>
+                <div class="RevSContent">
+                    <div class="RevRate">
+                        <h3>4.8/5</h3>
+                    </div>
+                    <div class="RevCount"><span>148 reviews
+                    </span></div>
+                </div>
+            </div>
+        </div>
+        </div>
 
 
 
@@ -568,7 +617,7 @@
                     </div>
 
                     <div class="ReqCallBtn">
-                        <a href="tel:+1300163694" class="EsBtn">Click To Call Now</a>
+                        <a href="tel:+1300163694" class="EsBtn">CLICK TO CALL NOW</a>
                     </div>
 
 
@@ -627,7 +676,7 @@
                         </div>
                         <div class="inputs">
 
-                            <button type="submit">Submit</button>
+                            <button type="submit">SUBMIT</button>
 
 
                         </div>
@@ -646,7 +695,7 @@
 
         <div class="container testimonials">
             <div class="expeerienceHeading testimonialsHeading">
-                <h1 class="text-center">Testimonials</h1>
+                <h1 class="text-center">TESTIMONIALS</h1>
 
             </div>
 
@@ -920,7 +969,7 @@
 
 
         <div class="expeerienceHeading ourexpertise">
-            <h1 class="text-center">Our Expertise</h1>
+            <h1 class="text-center">OUR EXPERTISE</h1>
 
         </div>
         <div class="container experience m">
