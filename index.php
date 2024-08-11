@@ -22,6 +22,43 @@
 
 <body>
 
+    <a href="javascript:void(0)">
+
+
+        <div class="popupZZ">
+
+            <div class="popupLogo">
+                <img src="assest/images/logo.webp" alt="">
+
+            </div>
+            <div class="PopUpheading">
+                <h3>WAIT! BEFORE YOU GO...</h3>
+            </div>
+
+            <div class="popupImage">
+                <img src="assest/images/motiontruck201-ezgif.com-png-to-webp-converter.webp" alt="">
+            </div>
+
+            <div class="PopUpheading2">
+                <h3>Free Black Tie Home Concrierge With Every Move!</h3>
+            </div>
+            <p>When it comes to movsing, a helping hand from Black Time Moving Can make all the defference.</p>
+
+            <div class="popupleanMoreBtn">
+                <button>Learn More!</button>
+            </div>
+
+            <p>Maybe Another Time...</p>
+
+
+
+            <div class="popupCross">x</div>
+
+
+        </div>
+    </a>
+
+
 
 
     <form action="" method='' class='popupForm'>
@@ -206,7 +243,8 @@
                             <li class="navManu"><a href="" class="md:px-3 md:py-3">INTERSTATE</a></li>
                             <li class="navManu"><a href="" class="md:px-3 md:py-3">BUSINESS</a></li>
                             <li class="navManu"><a href="" class="md:px-3 md:py-3">STORAGE</a></li>
-                            <li class="navManu"><a href="tel:1300163694" class="flex acall md:px-3 md:py-3 font-bold hover:font-extrabold hover:scale-105 transition ">
+                            <li class="navManu"><a href="tel:1300163694"
+                                    class="flex acall md:px-3 md:py-3 font-bold hover:font-extrabold hover:scale-105 transition ">
 
                                     <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                                     <svg class="herocall" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -257,8 +295,8 @@
                                     </svg>
 
                                     1300163694</a></li>
-                            <li class="navManu"><a href="javascript:void(0)"
-                                    class="md:px-7 md:py-4 getaquote ">GET A QUOTE</a>
+                            <li class="navManu"><a href="javascript:void(0)" class="md:px-7 md:py-4 getaquote ">GET A
+                                    QUOTE</a>
                             </li>
                         </ul>
                     </div>
@@ -551,51 +589,52 @@
 
         <div class="container reviewsection">
 
-        <div class="reviewSecItem">
-            <h3>Top rated NYC movers across ALL review sites</h3>
-        </div>
-        <div class="reviewSecItem">
-            <div class="nsRsecItems">
-                <div class="RevSImg"><img src="assest/icons/Google_Icons-09-512.webp" alt="google"></div>
-                <div class="RevSContent">
-                    <div class="RevRate">
-                        <h3>4.5/5</h3>
+            <div class=" revheadingP">
+                <h3>Top rated NYC movers across ALL review sites</h3>
+            </div>
+            <div class="reviewSecItem">
+                <div class="nsRsecItems">
+                    <div class="RevSImg"><img src="assest/icons/Google_Icons-09-512.webp" alt="google"></div>
+                    <div class="RevSContent">
+                        <div class="RevRate">
+                            <h3>4.5/5</h3>
+                        </div>
+                        <div class="RevCount"><span>182 reviews
+                            </span></div>
                     </div>
-                    <div class="RevCount"><span>182 reviews
-                    </span></div>
+                </div>
+                <div class="nsRsecItems">
+                    <div class="RevSImg"><img src="assest/icons/Yelp-Logo.png" alt="google"></div>
+                    <div class="RevSContent">
+                        <div class="RevRate">
+                            <h3>4.4/5</h3>
+                        </div>
+                        <div class="RevCount"><span>27 reviews
+                            </span></div>
+                    </div>
+                </div>
+                <div class="nsRsecItems">
+                    <div class="RevSImg"><img src="assest/icons/Trustpilot-Symbol.png" alt="google"></div>
+                    <div class="RevSContent">
+                        <div class="RevRate">
+                            <h3>4.9/5</h3>
+                        </div>
+                        <div class="RevCount"><span>387 reviews
+                            </span></div>
+                    </div>
+                </div>
+                <div class="nsRsecItems">
+                    <div class="RevSImg"><img src="assest/icons/thumbtack-logo-png_seeklogo-527757.png" alt="google">
+                    </div>
+                    <div class="RevSContent">
+                        <div class="RevRate">
+                            <h3>4.8/5</h3>
+                        </div>
+                        <div class="RevCount"><span>148 reviews
+                            </span></div>
+                    </div>
                 </div>
             </div>
-            <div class="nsRsecItems">
-            <div class="RevSImg"><img src="assest/icons/Yelp-Logo.png" alt="google"></div>
-                <div class="RevSContent">
-                    <div class="RevRate">
-                        <h3>4.4/5</h3>
-                    </div>
-                    <div class="RevCount"><span>27 reviews
-                    </span></div>
-                </div>
-            </div>
-            <div class="nsRsecItems">
-            <div class="RevSImg"><img src="assest/icons/Trustpilot-Symbol.png" alt="google"></div>
-                <div class="RevSContent">
-                    <div class="RevRate">
-                        <h3>4.9/5</h3>
-                    </div>
-                    <div class="RevCount"><span>387 reviews
-                    </span></div>
-                </div>
-            </div>
-            <div class="nsRsecItems">
-            <div class="RevSImg"><img src="assest/icons/thumbtack-logo-png_seeklogo-527757.png" alt="google"></div>
-                <div class="RevSContent">
-                    <div class="RevRate">
-                        <h3>4.8/5</h3>
-                    </div>
-                    <div class="RevCount"><span>148 reviews
-                    </span></div>
-                </div>
-            </div>
-        </div>
         </div>
 
 
@@ -961,7 +1000,7 @@
 
                 </div>
             </div>
-           
+
 
         </div>
 
@@ -1931,13 +1970,13 @@
         for (f = 0; f <= esbt.length; f++) {
             let popupform = document.querySelector('.popupForm')
             let main_container = document.querySelector('.main_container')
-            let heading =document.querySelector('.popHeading').innerHTML = 'Get Estimated Now'
+            let heading = document.querySelector('.popHeading').innerHTML = 'Get Estimated Now'
 
 
-            
+
             esbt[f].addEventListener('click', function (e) {
                 console.log(e.view)
-          
+
                 if (e.view.innerWidth <= 500) {
                     popupform.style.visibility = 'visible'
                     popupform.style.width = '95%'
@@ -1946,13 +1985,14 @@
                     popupform.style.top = '50%'
                     popupform.style.left = '50%'
                     popupform.style.zIndex = '100'
-                    popupform.style.backgroundColor = '#8b8d90'
+                    popupform.style.backgroundColor = "#4F5355"
+         popupform.style.border = "1.5px solid #58C819"
+         popupform.style.borderRadius = "10px"
                     popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
                     popupform.style.transition = '500ms'
-                    popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
                     let body = document.querySelector('body')
                     body.style.overflowY = 'hidden'
-                    main_container.style.filter = 'blur(2px)'
+                    main_container.style.filter = 'blur(3px)'
 
                     let cross = document.querySelector('.cross')
                     cross.addEventListener('click', function () {
@@ -1969,13 +2009,14 @@
                     popupform.style.top = '50%'
                     popupform.style.left = '50%'
                     popupform.style.zIndex = '100'
-                    popupform.style.backgroundColor = '#8b8d90'
+                    popupform.style.backgroundColor = "#4F5355"
+         popupform.style.border = "1.5px solid #58C819"
+         popupform.style.borderRadius = "10px"
                     popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
                     popupform.style.transition = '500ms'
-                    popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
                     let body = document.querySelector('body')
                     body.style.overflowY = 'hidden'
-                    main_container.style.filter = 'blur(2px)'
+                    main_container.style.filter = 'blur(3px)'
 
                     let cross = document.querySelector('.cross')
                     cross.addEventListener('click', function () {
@@ -1999,14 +2040,14 @@
             slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 1500,
+            autoplaySpeed: 500,
             responsive: [
                 {
                     breakpoint: 868,
                     settings: {
                         autoplay: true,
                         slidesToShow: 2,
-                        autoplaySpeed: 1500,
+                        autoplaySpeed: 1000,
                     }
                 },
                 {
@@ -2016,7 +2057,7 @@
                         centerMode: true,
                         autoplay: true,
                         slidesToShow: 1,
-                        autoplaySpeed: 1500,
+                        autoplaySpeed: 1000,
                     }
                 }
             ]
@@ -2068,12 +2109,6 @@
             let heading = document.querySelector('.popHeading').innerHTML = 'Get a Quick Quote'
 
 
-
-
-
-
-
-
             enquerybtn[x].addEventListener('click', function (e) {
 
 
@@ -2088,13 +2123,14 @@
                     popupform.style.top = '50%'
                     popupform.style.left = '50%'
                     popupform.style.zIndex = '100'
-                    popupform.style.backgroundColor = '#8b8d90'
+                    popupform.style.backgroundColor = "#4F5355"
+                    popupform.style.border = "1.5px solid #58C819"
+                    popupform.style.borderRadius = "10px"
                     popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
                     popupform.style.transition = '500ms'
-                    popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
                     let body = document.querySelector('body')
                     body.style.overflowY = 'hidden'
-                    main_container.style.filter = 'blur(2px)'
+                    main_container.style.filter = 'blur(3px)'
 
                     let cross = document.querySelector('.cross')
                     cross.addEventListener('click', function () {
@@ -2112,13 +2148,14 @@
                     popupform.style.top = '50%'
                     popupform.style.left = '50%'
                     popupform.style.zIndex = '100'
-                    popupform.style.backgroundColor = '#8b8d90'
+                    popupform.style.backgroundColor = "#4F5355"
+                    popupform.style.border = "1.5px solid #58C819"
+                    popupform.style.borderRadius = "10px"
                     popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
                     popupform.style.transition = '500ms'
-                    popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
                     let body = document.querySelector('body')
                     body.style.overflowY = 'hidden'
-                    main_container.style.filter = 'blur(2px)'
+                    main_container.style.filter = 'blur(3px)'
 
                     let cross = document.querySelector('.cross')
                     cross.addEventListener('click', function () {

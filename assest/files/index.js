@@ -92,13 +92,15 @@ for (i = 0; i <= getaquote.length; i++) {
          popupform.style.top = '50%'
          popupform.style.left = '50%'
          popupform.style.zIndex = '100'
-         popupform.style.backgroundColor = '#aaaaaa'
+         popupform.style.backgroundColor = "#4F5355"
+         popupform.style.border = "1.5px solid #58C819"
+         popupform.style.borderRadius = "10px"
+ 
          popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
          popupform.style.transition = '500ms'
-         popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
          let body = document.querySelector('body')
          body.style.overflowY = 'hidden'
-         main_container.style.filter = 'blur(2px)'
+         main_container.style.filter = 'blur(3px)'
          // body.style.filter = 'blur(1px)'
 
          let cross = document.querySelector('.cross')
@@ -122,14 +124,15 @@ for (i = 0; i <= getaquote.length; i++) {
          popupform.style.top = '50%'
          popupform.style.left = '50%'
          popupform.style.zIndex = '100'
-         popupform.style.backgroundColor = '#aaaaaa'
+         popupform.style.backgroundColor = "#4F5355"
+         popupform.style.border = "1.5px solid #58C819"
+         popupform.style.borderRadius = "10px"
          popupform.style.transform = 'tranlateX(-50%)tranlateY(-50%)'
          popupform.style.transition = '500ms'
-         popupform.style.boxShadow = 'rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'
 
          let body = document.querySelector('body')
          body.style.overflowY = 'hidden'
-         main_container.style.filter = 'blur(2px)'
+         main_container.style.filter = 'blur(3px)'
 
          let cross = document.querySelector('.cross')
          cross.addEventListener('click', function () {
